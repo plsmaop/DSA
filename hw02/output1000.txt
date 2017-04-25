@@ -1,0 +1,4805 @@
+query: ?* room
+output: 5
+the room	10524623
+living room	3999856
+dining room	2636949
+poker room	2438254
+in the room	2272889
+query: cells arrested
+output: 1
+cells arrested	5029
+query: ?the neighborhood/to restaurant
+output: 3
+to restaurant	52782
+neighborhood restaurant	17517
+the neighborhood restaurant	1115
+query: marriage/down _
+output: 5
+down the	22532255
+down to	18950658
+down and	8427118
+down on	6480282
+down in	5744783
+query: not send ?any type
+output: 1
+not send any type	2266
+query: samples treated with
+output: 1
+samples treated with	3475
+query: need _ recharge your
+output: 1
+need to recharge your	1484
+query: ?and outside of some pantyhose
+output: 2
+and outside of some pantyhose	2392
+outside of some pantyhose	2392
+query: ?physics concerned
+output: 1
+physics concerned	1232
+query: cum taste ?like
+output: 2
+cum taste	5690
+cum taste like	1254
+query: beyond ideas of _ and
+output: 1
+beyond ideas of wrongdoing and	1091
+query: _ weinachtslieder songtext note we
+output: 1
+lyric weinachtslieder songtext note we	1603
+query: visited they
+output: 1
+visited they	1611
+query: defensive ?purposes
+output: 1
+defensive purposes	20059
+query: they woke
+output: 1
+they woke	26521
+query: _ a future
+output: 5
+in a future	894908
+for a future	382272
+of a future	274461
+at a future	207231
+to a future	170638
+query: you to _ ?information/*
+output: 5
+you to view	7604186
+you to the	3474107
+you to be	1673295
+you to use	1449621
+you to make	1404091
+query: sales of investment *
+output: 2
+sales of investment	12887
+sales of investment securities	8885
+query: their academic ?*
+output: 5
+their academic	508409
+their academic and	42253
+their academic performance	21705
+their academic work	20529
+their academic careers	17845
+query: ?responsibility _ run
+output: 5
+to run	16750951
+and run	3935225
+not run	2403416
+the run	2362318
+will run	2348439
+query: structure of the magnetic/near/before
+output: 1
+structure of the magnetic	2024
+query: of interested ?faculty
+output: 2
+of interested	238759
+of interested faculty	1477
+query: want telemarketing
+output: 1
+want telemarketing	1800
+query: honestly about the
+output: 1
+honestly about the	4794
+query: ?_ _ in his _
+output: 5
+time in his life	72908
+back in his chair	63973
+look in his eyes	53230
+tears in his eyes	53046
+first time in his life	48200
+query: wave studies
+output: 1
+wave studies	2823
+query: ?of a statewide effort
+output: 1
+of a statewide effort	1798
+query: is extended _ for
+output: 2
+is extended annually for	5109
+is extended or for	1357
+query: * _
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: of _ following areas is
+output: 1
+of the following areas is	2733
+query: _ actionable _ ?analytics/near and
+output: 1
+delivers actionable revenue analytics and	2613
+query: _ to the selected protein
+output: 1
+affinity to the selected protein	1121
+query: was * to have been
+output: 5
+was to have been	81203
+was said to have been	46721
+was supposed to have been	44744
+was believed to have been	22706
+was found to have been	20104
+query: educational institutions to the
+output: 1
+educational institutions to the	1214
+query: remain liable for all
+output: 1
+remain liable for all	4236
+query: ?distribute/at/_ _ code
+output: 5
+the code	8422503
+zip code	6658843
+source code	5517903
+of code	2265626
+this code	1864229
+query: and we are facing
+output: 1
+and we are facing	2240
+query: _ _ development
+output: 5
+in the development	4332666
+research and development	2938538
+for the development	2478642
+to the development	2405057
+of the development	1397841
+query: all samples _
+output: 5
+all samples were	9143
+all samples are	6611
+all samples in	6042
+all samples of	5761
+all samples collected	5711
+query: _ a study which
+output: 5
+of a study which	4186
+in a study which	2069
+on a study which	2041
+to a study which	1348
+is a study which	1311
+query: * is/near/by retained
+output: 5
+is retained	420277
+information is retained	20463
+that is retained	10302
+path is retained	10037
+previous upload path is retained	9866
+query: or _ to your
+output: 5
+or add to your	629129
+or link to your	37155
+or damage to your	24246
+or return to your	19805
+or wallpapers to your	13066
+query: anal free online
+output: 1
+anal free online	3771
+query: well as digital ones
+output: 1
+well as digital ones	1606
+query: ?how to upgrade or
+output: 2
+to upgrade or	48143
+how to upgrade or	1666
+query: ovary and uterus
+output: 1
+ovary and uterus	2514
+query: ?admit/* responsibility for
+output: 5
+responsibility for	27605398
+all responsibility for	9095823
+assumes all responsibility for	8961911
+no responsibility for	7616797
+assume no responsibility for	1991851
+query: why/from/under did you _
+output: 5
+why did you not	15599
+why did you do	14550
+why did you choose	13842
+why did you have	13793
+why did you leave	11412
+query: the automatic entry and
+output: 1
+the automatic entry and	1100
+query: the great reviews and
+output: 1
+the great reviews and	1184
+query: to _ ?local/without
+output: 5
+to the	1139248999
+to be	505148997
+to get	129571372
+to do	123164705
+to make	122728935
+query: dumped illegally
+output: 1
+dumped illegally	1508
+query: we see great
+output: 1
+we see great	3732
+query: the capability of defining
+output: 1
+the capability of defining	1220
+query: requiring reoperation
+output: 1
+requiring reoperation	1179
+query: increase the nutrient
+output: 1
+increase the nutrient	1118
+query: if the action had
+output: 1
+if the action had	1976
+query: finished/up/before/between * or
+output: 5
+up or	2880715
+before or	1473699
+between two or	202384
+before purchasing any merchandise or	113567
+between or	76966
+query: and ability/from to ?support
+output: 3
+and ability to	938671
+and ability to support	4265
+and from to	3011
+query: pursue _ interest
+output: 5
+pursue his interest	4460
+pursue an interest	4142
+pursue their interest	3002
+pursue her interest	2264
+pursue my interest	1902
+query: _ strong points of _
+output: 2
+the strong points of the	4453
+the strong points of this	1179
+query: carisoprodol/under/down/after west ward carisoprodol
+output: 1
+carisoprodol west ward carisoprodol	1411
+query: managing general
+output: 1
+managing general	27959
+query: to _ payment of
+output: 5
+to the payment of	184216
+to secure payment of	12320
+to receive payment of	11194
+to make payment of	10960
+to approve payment of	7650
+query: ?stress disorder symptoms/from
+output: 4
+disorder from	18826
+disorder symptoms	17573
+stress disorder symptoms	2615
+stress disorder from	1326
+query: the escape character followed by
+output: 1
+the escape character followed by	1796
+query: _ _ _ hotel
+output: 5
+review of this hotel	2185868
+photos of this hotel	2177643
+to find the hotel	1392744
+stayed at this hotel	1283628
+ratings for this hotel	1090644
+query: students with a ?_ of
+output: 5
+students with a variety of	14973
+students with a range of	14132
+students with a sense of	2846
+students with a knowledge of	2488
+students with a list of	2316
+query: _ like _ say/between/about _
+output: 5
+would like to say that	120334
+just like to say that	62685
+would like to say thank	26636
+would like to say to	20978
+also like to say that	13628
+query: up _ dynamite/down
+output: 5
+up and down	3096511
+up or down	791187
+up side down	10138
+up is down	8942
+up to down	8540
+query: weight loss _ meridia information
+output: 1
+weight loss drug meridia information	11795
+query: _ ?_ ?of the website
+output: 5
+on the website	2029203
+to the website	1543958
+of the website	1185367
+go to the website	724302
+visit the website	315606
+query: improve survey
+output: 1
+improve survey	1218
+query: they can prepare their/at
+output: 1
+they can prepare their	1296
+query: ?is fairly painless
+output: 2
+fairly painless	9518
+is fairly painless	1396
+query: _ ?_ multiparty
+output: 5
+of multiparty	10581
+the multiparty	7889
+first multiparty	6541
+and multiparty	6183
+to multiparty	4543
+query: approval of the federal
+output: 1
+approval of the federal	2160
+query: more modest pace
+output: 1
+more modest pace	1175
+query: who ?_ not drink
+output: 4
+who do not drink	15261
+who did not drink	5933
+who does not drink	5504
+who can not drink	1548
+query: closed complaints
+output: 1
+closed complaints	2199
+query: service providers accelerate
+output: 1
+service providers accelerate	1394
+query: statutory basis
+output: 1
+statutory basis	56262
+query: your contact details ?change
+output: 2
+your contact details	177370
+your contact details change	1038
+query: boobs teenage sex orgies
+output: 1
+boobs teenage sex orgies	1279
+query: at/on/to/on the bard
+output: 3
+to the bard	4508
+on the bard	2543
+at the bard	2358
+query: ?this section of _ directory
+output: 3
+section of our directory	85924
+section of the directory	5443
+this section of the directory	2121
+query: _ excel ?in
+output: 5
+to excel	423347
+to excel in	144790
+and excel	73862
+in excel	70727
+an excel	67961
+query: far from useless
+output: 1
+far from useless	1078
+query: less/down than a point
+output: 1
+less than a point	1899
+query: ?grant priorities/*
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: ?to offer storage
+output: 2
+offer storage	5957
+to offer storage	1021
+query: _ ?_ call us on
+output: 5
+or call us on	103504
+please call us on	96570
+can call us on	27385
+to call us on	20158
+you can call us on	15270
+query: ?and distribute/*/by this worksheet for
+output: 5
+this worksheet for	4480
+and distribute this worksheet for	1246
+distribute this worksheet for	1246
+reproduce this worksheet for	1037
+to reproduce this worksheet for	1036
+query: places along ?the/on/down/down
+output: 2
+places along	48493
+places along the	35781
+query: not affect service
+output: 1
+not affect service	1598
+query: people found _
+output: 5
+people found the	6564771
+people found this	1538657
+people found it	12350
+people found out	10982
+people found that	8654
+query: the _ instrument
+output: 5
+the same instrument	42834
+the survey instrument	29410
+the trust instrument	27604
+the main instrument	17527
+the new instrument	14153
+query: _ _ ?assisted
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: for ?that of the agency/near
+output: 1
+for that of the agency	3568
+query: _ come from
+output: 5
+to come from	797507
+have come from	523527
+will come from	493204
+not come from	334080
+that come from	313636
+query: and many _
+output: 5
+and many other	3187733
+and many more	2979222
+and many others	1653619
+and many of	1326388
+and many people	236674
+query: populating its
+output: 1
+populating its	1822
+query: ?for personal injuries and
+output: 2
+personal injuries and	10182
+for personal injuries and	2642
+query: _ _ to ?aligning/about/at business
+output: 5
+get down to business	64105
+companies respond to business	29351
+get back to business	16598
+got down to business	14550
+it comes to business	13512
+query: _ ?that death
+output: 5
+the death	7774702
+of death	4998541
+to death	4364981
+his death	2773127
+and death	2651030
+query: ?ladies are not
+output: 2
+are not	133884316
+ladies are not	7768
+query: _ vaniqa online
+output: 1
+buy vaniqa online	1674
+query: formation out of
+output: 1
+formation out of	1021
+query: ?coincide with ?the end
+output: 3
+with the end	281391
+with end	201662
+coincide with the end	5754
+query: earnings are distributed
+output: 1
+earnings are distributed	1773
+query: those * also
+output: 5
+those listed here may also	121185
+those also	35068
+those who also	18612
+those are also	6906
+those who are also	6772
+query: to be at one of
+output: 1
+to be at one of	2313
+query: are ?called ?from
+output: 3
+are from	4176054
+are called	3143922
+are called from	16579
+query: suspect that over
+output: 1
+suspect that over	1345
+query: entire path
+output: 1
+entire path	25429
+query: vote in our ?online/down
+output: 2
+vote in our	49023
+vote in our online	1292
+query: good sex is
+output: 1
+good sex is	2561
+query: of _ * of
+output: 5
+of one of	4909862
+of thousands of	4047396
+of some of	3884792
+of any of	2482996
+of all of	2424107
+query: is sufficiently mature/near/under
+output: 1
+is sufficiently mature	2815
+query: is a/with/with/by ?member who
+output: 2
+is a who	5498
+is a member who	2614
+query: the/near worlds largest _
+output: 5
+the worlds largest adult	54263
+the worlds largest community	35412
+the worlds largest online	9244
+the worlds largest resource	9032
+the worlds largest selling	6972
+query: and also _
+output: 5
+and also the	1326831
+and also to	1092131
+and also in	612921
+and also for	422331
+and also has	229606
+query: ?to user error including
+output: 2
+user error including	1416
+to user error including	1393
+query: before _ ?it to
+output: 5
+before going to	406731
+before returning to	335140
+before moving to	264539
+before coming to	228302
+before attempting to	170297
+query: removes the widget
+output: 1
+removes the widget	1761
+query: too lazy to _
+output: 5
+too lazy to do	27202
+too lazy to register	24118
+too lazy to go	21815
+too lazy to look	17584
+too lazy to get	17357
+query: to _ the desired
+output: 5
+to achieve the desired	135855
+to get the desired	39757
+to select the desired	38350
+to produce the desired	38256
+to obtain the desired	35997
+query: maximise the impact of
+output: 1
+maximise the impact of	8893
+query: allows users to view
+output: 1
+allows users to view	27739
+query: _ contract and shall _
+output: 4
+the contract and shall operate	2529
+the contract and shall be	1927
+of contract and shall be	1293
+this contract and shall be	1199
+query: _ _ save a lot
+output: 5
+you can save a lot	41781
+cartful and save a lot	14673
+projects and save a lot	8750
+you will save a lot	4178
+that will save a lot	3189
+query: who _
+output: 5
+who are	42790236
+who have	32621737
+who is	30524903
+who has	20146800
+who was	17024842
+query: for ambulatory _ sensitive conditions
+output: 1
+for ambulatory care sensitive conditions	1722
+query: to ?wear upon
+output: 2
+to upon	16104
+to wear upon	1253
+query: ?can search on any
+output: 2
+search on any	10364
+can search on any	1226
+query: _ sexycams
+output: 1
+zum sexycams	3116
+query: ?responding to ?a survey
+output: 4
+to survey	440238
+to a survey	243513
+responding to a survey	3652
+responding to survey	1762
+query: integrates smoothly/without
+output: 2
+integrates smoothly	4097
+integrates without	2104
+query: ?an externally applied
+output: 2
+externally applied	24029
+an externally applied	5474
+query: cause confusion/in or
+output: 1
+cause confusion or	5421
+query: so sweet ?at
+output: 2
+so sweet	438360
+so sweet at	1005
+query: that _ work in
+output: 5
+that will work in	24962
+that would work in	10385
+that they work in	8752
+that the work in	7574
+that can work in	7253
+query: _ patients with non
+output: 4
+in patients with non	22321
+of patients with non	6711
+for patients with non	3880
+from patients with non	1112
+query: how the data * _
+output: 5
+how the data is	23824
+how the data are	19229
+how the data are obtained	10963
+how the data will	9587
+how the data will be	8634
+query: loans poor _ tenant
+output: 1
+loans poor credit tenant	1196
+query: _ is often
+output: 5
+it is often	932520
+which is often	338504
+and is often	295624
+that is often	287269
+there is often	200763
+query: evaluating the new
+output: 1
+evaluating the new	3990
+query: cooperative program of the/than
+output: 1
+cooperative program of the	11310
+query: on _ _
+output: 5
+on this site	18047930
+on the web	11651487
+on how to	10983433
+on behalf of	10862151
+on this page	10752505
+query: fatty acids ratio of
+output: 1
+fatty acids ratio of	1172
+query: teen ?* ?_ xxx _
+output: 5
+teen xxx video	27752
+teen xxx free	27719
+teen xxx teen	27478
+teen xxx movie	14107
+teen xxx xxx	13605
+query: any ?gross ?the
+output: 3
+any the	115519
+any gross	44103
+any gross the	1067
+query: postage _ _
+output: 5
+postage services available	479574
+postage and packing	245016
+postage and packaging	149208
+postage and handling	114733
+postage for each	66715
+query: ?* areas that
+output: 5
+areas that	2393056
+in areas that	272681
+the areas that	224815
+those areas that	78682
+other areas that	66101
+query: of bad ?reasons _ what
+output: 1
+of bad reasons for what	16175
+query: ?armed ?with long
+output: 2
+with long	1558476
+armed with long	4004
+query: dog figurine/before
+output: 2
+dog before	19499
+dog figurine	7715
+query: million/under/to dollars over
+output: 1
+million dollars over	14357
+query: you have done * than
+output: 1
+you have done more than	1163
+query: team will check
+output: 1
+team will check	1917
+query: three _ who/to are
+output: 5
+three people who are	4475
+three persons who are	2667
+three children who are	2436
+three members who are	2331
+three individuals who are	1525
+query: ?were ?developed/before/on prior
+output: 5
+on prior	172907
+developed prior	20774
+were prior	19355
+before prior	2250
+were developed prior	2129
+query: committed _ complying
+output: 1
+committed to complying	23144
+query: not go putting
+output: 1
+not go putting	1376
+query: keep you logged
+output: 1
+keep you logged	30446
+query: what features _
+output: 5
+what features are	41166
+what features you	14640
+what features and	13630
+what features of	8306
+what features help	5723
+query: for sustainable ?_
+output: 5
+for sustainable	743871
+for sustainable development	299218
+for sustainable forest	20067
+for sustainable agriculture	20047
+for sustainable growth	18713
+query: met/*/about the burden of proof
+output: 5
+the burden of proof	314838
+has the burden of proof	25846
+that the burden of proof	22423
+of the burden of proof	16051
+bears the burden of proof	12989
+query: cheap flights to/before *
+output: 5
+cheap flights to	347637
+cheap flights to spain	8131
+cheap flights to malaga	8039
+cheap flights to australia	6960
+cheap flights to alicante	6191
+query: send ?me a confirmation
+output: 2
+send a confirmation	26160
+send me a confirmation	1536
+query: ?_ press _ dated
+output: 4
+press release dated	21697
+the press release dated	1554
+see press release dated	1214
+press releases dated	1059
+query: very/from serious _
+output: 5
+very serious about	66968
+very serious and	56327
+very serious problem	44282
+very serious matter	29831
+very serious issue	21899
+query: ?he treated as
+output: 2
+treated as	4136534
+he treated as	1644
+query: ?more overpowering
+output: 1
+more overpowering	1463
+query: start reading your
+output: 1
+start reading your	2404
+query: ensure that you are/up/without making
+output: 1
+ensure that you are making	1231
+query: ?which _ politically/to/up
+output: 5
+up to	130000057
+want to	128872011
+need to	127104469
+have to	115169237
+able to	100783318
+query: the antitrust exemption
+output: 1
+the antitrust exemption	2311
+query: _ istanbul _ istanbul guida
+output: 1
+accommodation istanbul guides istanbul guida	1080
+query: finding of noncompliance with
+output: 1
+finding of noncompliance with	1069
+query: as calculate
+output: 1
+as calculate	2039
+query: and/near/with of ?his
+output: 5
+and of	19049333
+and of his	215923
+with of	186684
+near of	23344
+with of his	3137
+query: _ was mailed to
+output: 5
+that was mailed to	9302
+survey was mailed to	6481
+questionnaire was mailed to	5606
+which was mailed to	3099
+statement was mailed to	3095
+query: combination/under/in of excitement
+output: 1
+combination of excitement	1572
+query: _ technology developed for/of/about
+output: 2
+the technology developed for	1954
+and technology developed for	1425
+query: for w by
+output: 1
+for w by	4344
+query: * cords for
+output: 5
+cords for	31419
+power cords for	4985
+patch cords for	1914
+extension cords for	1635
+and cords for	1234
+query: or ?_ _ to be/before
+output: 5
+or cause to be	219124
+or not to be	117976
+or intended to be	63892
+or alleged to be	58694
+or is to be	50308
+query: or tax preparer
+output: 1
+or tax preparer	1650
+query: _ _ ?content
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: another _ member to
+output: 2
+another family member to	2435
+another staff member to	1307
+query: parents wont
+output: 1
+parents wont	3963
+query: rolls of _ paper
+output: 1
+rolls of toilet paper	7902
+query: me _
+output: 5
+me to	32200539
+me and	12455475
+me that	12231597
+me in	8385691
+me the	7717474
+query: bitch/before/_ how
+output: 5
+and how	28838240
+on how	20411091
+know how	16348832
+of how	15277441
+about how	14305762
+query: and _ experiences
+output: 5
+and the experiences	57091
+and life experiences	40820
+and share experiences	38218
+and their experiences	36381
+and your experiences	36365
+query: wrong on any
+output: 1
+wrong on any	2690
+query: claimed that the reason
+output: 1
+claimed that the reason	1696
+query: capital * and
+output: 5
+capital and	1681502
+capital gains and	78438
+capital markets and	63375
+capital investment and	46299
+capital expenditures and	42659
+query: telefonnummer ?privat ?* kontakt
+output: 1
+telefonnummer privat sex kontakt	3325
+query: ?industrial/* shock
+output: 5
+the shock	789370
+in shock	408059
+heat shock	327758
+of shock	310203
+and shock	301847
+query: that show _
+output: 5
+that show the	171550
+that show that	77486
+that show up	71113
+that show how	66257
+that show enterprise	52232
+query: average consumer price
+output: 1
+average consumer price	2991
+query: ?schedule ?* has
+output: 5
+it has	36938989
+and has	29203267
+that has	28065080
+he has	22193159
+who has	20146800
+query: just recipes
+output: 1
+just recipes	2357
+query: consolations/in/for/by to
+output: 4
+in to	43775707
+by to	1360944
+for to	973156
+consolations to	3171
+query: spy cam ?spy
+output: 2
+spy cam	616586
+spy cam spy	11720
+query: without the overhead _
+output: 2
+without the overhead of	13807
+without the overhead and	1099
+query: identifying a/since common/_
+output: 5
+identifying a specific	9469
+identifying a particular	7702
+identifying a person	7046
+identifying a party	6153
+identifying a set	5579
+query: turn a ?_ _ gay
+output: 1
+turn a straight guy gay	7027
+query: drawn carriage to
+output: 1
+drawn carriage to	1691
+query: templates and
+output: 1
+templates and	612486
+query: shanghai _
+output: 5
+shanghai hotel	14162
+shanghai china	7451
+shanghai diaries	3331
+shanghai from	2627
+shanghai travel	2564
+query: makes/from _ people
+output: 5
+from the people	453734
+from other people	203258
+from real people	41208
+from these people	37279
+from many people	33911
+query: through his _
+output: 5
+through his own	79164
+through his mind	46678
+through his hair	41251
+through his work	37816
+through his body	37455
+query: should ?read the first
+output: 2
+should the first	5759
+should read the first	2133
+query: offered to answer any questions
+output: 1
+offered to answer any questions	1786
+query: or denver
+output: 1
+or denver	1800
+query: ?surrogate parenting
+output: 1
+surrogate parenting	3630
+query: junior _ girls
+output: 2
+junior high girls	9750
+junior varsity girls	1226
+query: time being _
+output: 5
+time being in	68194
+time being the	30942
+time being of	24104
+time being we	21534
+time being and	20657
+query: systems _ originally
+output: 1
+systems were originally	2387
+query: contained therein and we
+output: 1
+contained therein and we	1152
+query: _ fractions
+output: 5
+of fractions	77274
+the fractions	61692
+and fractions	46477
+only fractions	41654
+with fractions	36448
+query: which they/between resided
+output: 1
+which they resided	3429
+query: thing so/under/since/since you could
+output: 1
+thing so you could	1616
+query: fun and knowledge
+output: 1
+fun and knowledge	1117
+query: title/for ?that ?you
+output: 5
+for you	53719128
+for that	21026827
+title that	256967
+title you	169971
+for that you	53044
+query: secure/from directory
+output: 2
+from directory	39957
+secure directory	6543
+query: you old
+output: 1
+you old	92053
+query: from being used in the
+output: 1
+from being used in the	2166
+query: _ ?su sv/after sy sz
+output: 2
+su sv sy sz	14299
+st su sv sy sz	14297
+query: having _ ready
+output: 2
+having a ready	2410
+having it ready	1691
+query: shows all ?four
+output: 2
+shows all	431403
+shows all four	1180
+query: the gist of the article
+output: 1
+the gist of the article	1795
+query: root down to
+output: 1
+root down to	1138
+query: candidate software
+output: 1
+candidate software	1300
+query: of the river _
+output: 5
+of the river and	88866
+of the river is	33105
+of the river to	27517
+of the river in	23573
+of the river was	15307
+query: legal meeting
+output: 1
+legal meeting	2633
+query: time _ _ read/with and
+output: 1
+time to carefully read and	9997
+query: _ school environments
+output: 5
+and school environments	4553
+in school environments	1954
+safe school environments	1229
+of school environments	1203
+healthy school environments	1181
+query: interested in investing in ?_
+output: 2
+interested in investing in	19074
+interested in investing in the	3456
+query: to/with/without increase _ strength
+output: 5
+to increase the strength	10412
+to increase your strength	2398
+to increase its strength	2115
+to increase their strength	2100
+to increase muscle strength	1785
+query: vote _ all meetings of
+output: 1
+vote at all meetings of	1649
+query: in * and *
+output: 5
+in and	19082074
+in and out	2861947
+in and around	2766682
+in and out of	1756034
+in the world and	813320
+query: are shelf
+output: 1
+are shelf	3647
+query: all they could to make/_/down
+output: 3
+all they could to keep	1957
+all they could to help	1749
+all they could to make	1646
+query: and ?off _ the
+output: 5
+and in the	14118975
+and that the	8432145
+and click the	7430647
+and to the	6617757
+and on the	6216900
+query: first _
+output: 5
+first time	23806960
+first to	13970696
+first and	6399091
+first of	5290637
+first place	5169257
+query: list of *
+output: 5
+list of	50755382
+list of the	3632167
+list of all	2697134
+list of products	835415
+list of files	667428
+query: refusing to admit the/at/for
+output: 1
+refusing to admit the	2012
+query: _ ?total
+output: 5
+the total	20425094
+of total	6259915
+in total	3347920
+and total	1657892
+your total	966837
+query: _ coronary artery
+output: 5
+of coronary artery	101186
+with coronary artery	60288
+for coronary artery	39581
+and coronary artery	31512
+in coronary artery	23774
+query: root instance
+output: 1
+root instance	1000
+query: art ?of investing _
+output: 1
+art of investing is	1601
+query: between phonological
+output: 1
+between phonological	2730
+query: fitness for duty
+output: 1
+fitness for duty	13003
+query: long death
+output: 1
+long death	2581
+query: to _ _ ?degree
+output: 5
+to a friend	43913442
+to my products	19903911
+to be the	18923364
+to go to	16601869
+to the top	16295762
+query: them _ be remembered
+output: 1
+them to be remembered	3304
+query: ?* ?him to ?come
+output: 5
+up to	130000057
+want to	128872011
+need to	127104469
+have to	115169237
+able to	100783318
+query: at _ beginning * such
+output: 1
+at the beginning of such	10086
+query: ?relationship increases
+output: 1
+relationship increases	1330
+query: * this/than site
+output: 5
+this site	72925890
+on this site	18047930
+of this site	10453787
+information on this site	3320091
+in this site	2878515
+query: ?* order/about
+output: 5
+in order	52872745
+information about	51476017
+more about	35348262
+is about	14568712
+talking about	13530550
+query: any other law limiting/of/with expenditures
+output: 1
+any other law limiting expenditures	3100
+query: film _
+output: 5
+film and	2361175
+film is	2225706
+film porno	2066569
+film that	915042
+film was	905305
+query: services _ must be
+output: 5
+services that must be	7562
+services which must be	1654
+services and must be	1481
+services provided must be	1306
+services you must be	1002
+query: questions that do/by/with not _
+output: 4
+questions that do not get	4776
+questions that do not have	1707
+questions that do not fit	1445
+questions that do not apply	1164
+query: _ _ recording
+output: 5
+of the recording	188130
+in the recording	114911
+to the recording	90602
+your music recording	75352
+for the recording	74445
+query: languag is
+output: 1
+languag is	1602
+query: ?books _ guides
+output: 5
+travel guides	2253673
+buying guides	1454561
+and guides	675999
+study guides	340058
+city guides	277150
+query: short car
+output: 1
+short car	10271
+query: hotel according
+output: 1
+hotel according	1485
+query: that/after/in ?they ?only _
+output: 5
+in the	1628795324
+that the	333393891
+in this	174166565
+that is	112872973
+that you	98545686
+query: _ adjusting _ the
+output: 5
+after adjusting for the	10952
+in adjusting to the	6684
+time adjusting to the	5042
+still adjusting to the	4646
+and adjusting to the	4460
+query: raising * children
+output: 5
+raising children	149682
+raising their children	23991
+raising of children	9837
+raising our children	7757
+raising the children	7309
+query: maintain ?the aspect
+output: 2
+maintain the aspect	1626
+maintain aspect	1343
+query: _ free
+output: 5
+for free	25520550
+the free	14259455
+and free	10289308
+is free	8190581
+feel free	7714479
+query: leadership in support/before/before
+output: 1
+leadership in support	3232
+query: ?become a major
+output: 1
+become a major	309581
+query: ?_ course in
+output: 5
+course in	3119994
+the course in	211616
+of course in	104148
+golf course in	100116
+program course in	73144
+query: new techniques and ?even
+output: 2
+new techniques and	69702
+new techniques and even	4336
+query: ?claimed privilege
+output: 1
+claimed privilege	1495
+query: players and most
+output: 1
+players and most	2342
+query: wrong position
+output: 1
+wrong position	25319
+query: object of for ?objects/on
+output: 2
+object of for	38502
+object of for objects	38464
+query: and ?waiters are
+output: 2
+and are	39542742
+and waiters are	1037
+query: de naam/in van de
+output: 1
+de naam van de	1743
+query: if * wanna _ what
+output: 1
+if you wanna know what	1461
+query: attributable ?to _
+output: 5
+attributable to	2221720
+attributable to the	678402
+attributable to an	37453
+attributable to any	28080
+attributable to such	26747
+query: is the format of the
+output: 1
+is the format of the	12349
+query: have listed _ ebay/on
+output: 1
+have listed on ebay	1423
+query: has a ?number of policies
+output: 1
+has a number of policies	1117
+query: meat fridge plant
+output: 1
+meat fridge plant	3627
+query: way over _
+output: 5
+way over the	103367
+way over to	78998
+way over my	19880
+way over there	17687
+way over here	16089
+query: ?are _ highly
+output: 5
+is highly	3645382
+and highly	2072055
+are highly	2060860
+the highly	1674762
+of highly	1313239
+query: personal intrusion
+output: 1
+personal intrusion	1138
+query: the math correctly
+output: 1
+the math correctly	1194
+query: easy accessibility
+output: 1
+easy accessibility	38678
+query: programmes/about/up are ?essential
+output: 4
+programmes are	436822
+up are	223846
+about are	181255
+programmes are essential	1198
+query: footlocker ford fordfalcon
+output: 1
+footlocker ford fordfalcon	1713
+query: resulting class
+output: 1
+resulting class	5020
+query: and boats online _
+output: 1
+and boats online here	1416
+query: commission for all referred
+output: 1
+commission for all referred	1586
+query: boat anglers
+output: 1
+boat anglers	7424
+query: so _ about me
+output: 2
+so much about me	6244
+so worried about me	1237
+query: ?or physical health/after *
+output: 5
+physical health	398551
+physical health and	43282
+physical health of	25678
+physical health problems	21686
+or physical health	19195
+query: ?the industries as
+output: 2
+industries as	126353
+the industries as	1494
+query: ?information related to various
+output: 2
+related to various	33216
+information related to various	1710
+query: slots strip
+output: 1
+slots strip	1440
+query: center _ learn _
+output: 1
+center to learn more	1086
+query: more than a * period
+output: 3
+more than a short period	2125
+more than a period	2046
+more than a brief period	1265
+query: _ the _ to the
+output: 5
+all the way to the	677531
+on the way to the	269591
+at the entrance to the	160573
+of the parties to the	83703
+is the key to the	82716
+query: came out _
+output: 5
+came out of	1112840
+came out in	381251
+came out and	334030
+came out with	319289
+came out to	297226
+query: figure for the period
+output: 1
+figure for the period	1004
+query: provide ?* with _ *
+output: 5
+provide you with the	1151779
+provide you with an	229407
+provide us with comments	189109
+provide you with information	188559
+provide us with comments to	184575
+query: right any/with/before/between
+output: 4
+right before	833001
+right with	692400
+right between	88388
+right any	11715
+query: the richest/before/in in the country
+output: 1
+the richest in the country	1165
+query: am _ out
+output: 5
+am only out	32906
+am going out	26179
+am running out	20797
+am currently out	12640
+am not out	10278
+query: priests _
+output: 5
+priests and	401719
+priests of	139460
+priests in	106023
+priests who	103104
+priests to	79328
+query: help get the job/with
+output: 1
+help get the job	3241
+query: number of ?passages
+output: 2
+number of	139151213
+number of passages	9949
+query: _ stingrays/near/from
+output: 5
+away from	25135207
+available from	13949528
+information from	13143808
+and from	11929593
+results from	11214684
+query: be painful to watch/under/from
+output: 1
+be painful to watch	1038
+query: _ related _
+output: 5
+is related to	2029777
+issues related to	1657949
+are related to	1320587
+be related to	1245945
+directly related to	1152241
+query: items/down/for are taken from
+output: 1
+items are taken from	1772
+query: plan optimization
+output: 1
+plan optimization	1538
+query: pequenos/after/of video sexo ver download/down/near
+output: 1
+pequenos video sexo ver download	2284
+query: group _
+output: 5
+group of	22502424
+group is	3448329
+group and	3414805
+group for	3029999
+group to	2494054
+query: ?soccer _
+output: 5
+soccer team	476728
+soccer and	201543
+soccer ball	140885
+soccer player	138674
+soccer game	135190
+query: sum your
+output: 1
+sum your	1037
+query: hunted him
+output: 1
+hunted him	5345
+query: * _ pair _
+output: 5
+with a pair of	393888
+and a pair of	336663
+the pair of	222617
+of a pair of	214691
+each pair of	188393
+query: ?to small ?blood
+output: 3
+to small	1907488
+small blood	49003
+to small blood	1031
+query: is not infallible
+output: 1
+is not infallible	12082
+query: _ to * you with/up/up
+output: 5
+unable to assist you with	339517
+is to provide you with	195985
+back to you with	112528
+dedicated to providing you with	98230
+able to provide you with	96333
+query: almeria villas
+output: 1
+almeria villas	8777
+query: but will take money orders
+output: 1
+but will take money orders	1105
+query: been a challenging year
+output: 1
+been a challenging year	3091
+query: news media or
+output: 1
+news media or	5330
+query: consider an/from/after adjustable/before
+output: 1
+consider an adjustable	1838
+query: used in operating
+output: 1
+used in operating	33929
+query: has ?_
+output: 5
+has been	196769958
+has pictures	76915768
+has not	32436959
+has the	29970755
+has to	25797057
+query: ?_ to _ ?merchant or
+output: 5
+to one or	1030794
+to bid or	885680
+to buy or	881926
+to load or	598111
+forever to load or	566608
+query: grounds of ?objection
+output: 2
+grounds of	1414132
+grounds of objection	4794
+query: _ in
+output: 5
+and in	63760775
+is in	55337826
+result in	40947638
+used in	39004321
+are in	38941815
+query: general economic _ social
+output: 1
+general economic and social	1809
+query: for a resource _
+output: 5
+for a resource that	4048
+for a resource to	2630
+for a resource consent	2246
+for a resource in	1555
+for a resource or	1248
+query: _ cell by
+output: 5
+the cell by	15239
+each cell by	1927
+his cell by	1798
+host cell by	1703
+fuel cell by	1623
+query: condition shall not
+output: 1
+condition shall not	6311
+query: of strength of materials
+output: 1
+of strength of materials	1204
+query: is most widely _
+output: 3
+is most widely used	6370
+is most widely known	4674
+is most widely recognized	1022
+query: * _ exchange
+output: 5
+recent exchange	4545777
+get recent exchange	4536303
+to get recent exchange	4536296
+need to get recent exchange	4536276
+the exchange	2734246
+query: fax number ?here _ visitors
+output: 1
+fax number here enables visitors	1417
+query: system utilized by the
+output: 1
+system utilized by the	1376
+query: _ expense
+output: 5
+the expense	2740820
+and expense	757156
+own expense	364991
+interest expense	306410
+or expense	265074
+query: read details of _
+output: 1
+read details of the	1055
+query: any addressable
+output: 1
+any addressable	1165
+query: membership/in are _
+output: 5
+in are the	19767
+in are not	11283
+in are subject	10625
+in are still	7281
+in are updated	5380
+query: cam free gay porn web
+output: 1
+cam free gay porn web	7618
+query: ever race
+output: 1
+ever race	6339
+query: _ _ _ _ form
+output: 5
+in part in any form	1362662
+be reproduced in any form	516569
+or redistribute in any form	301912
+or transmitted in any form	286449
+or redistributed in any form	188812
+query: get _ ?on
+output: 5
+get the	36251993
+get to	17496813
+get it	11990767
+get your	9216940
+get in	6530694
+query: objectionable foreign
+output: 1
+objectionable foreign	1238
+query: rent program
+output: 1
+rent program	1133
+query: childhood stroke
+output: 1
+childhood stroke	1349
+query: eg _
+output: 5
+eg the	1229490
+eg in	510969
+eg for	350876
+eg by	293257
+eg to	252695
+query: an _ pair
+output: 5
+an extra pair	38403
+an au pair	32633
+an old pair	21539
+an ordered pair	14819
+an additional pair	4396
+query: usually from the inside *
+output: 2
+usually from the inside	4230
+usually from the inside of	4193
+query: he should have ?found
+output: 2
+he should have	552106
+he should have found	1308
+query: _ reduce * _
+output: 5
+to reduce the	5224246
+and reduce the	712085
+will reduce the	554580
+can reduce the	502972
+to reduce the number	418238
+query: windows software that
+output: 1
+windows software that	1860
+query: amplification and * _
+output: 5
+amplification and sequencing	5016
+amplification and detection	4146
+amplification and the	3134
+amplification and sequencing of	2422
+amplification and noise	1692
+query: _ linked to a specific
+output: 4
+be linked to a specific	3437
+is linked to a specific	2274
+not linked to a specific	1504
+are linked to a specific	1002
+query: ?complete ?localization
+output: 1
+complete localization	1305
+query: in/without nature there
+output: 1
+in nature there	2625
+query: hospital ?_ ?four days/before/at
+output: 5
+hospital at	143843
+hospital before	33114
+hospital days	20973
+hospital bed days	8219
+hospital or at	6989
+query: done that _
+output: 5
+done that before	52767
+done that in	44886
+done that and	34862
+done that for	30670
+done that may	29989
+query: the/before other centres
+output: 1
+the other centres	3848
+query: full ?_
+output: 5
+full of	13237984
+full description	5982583
+full specs	5192224
+full text	4862012
+full time	3683703
+query: performed badly in
+output: 1
+performed badly in	1085
+query: report * presented ?to the
+output: 5
+report presented to the	12217
+report was presented to the	9776
+report presented the	8907
+report is presented to the	2954
+report be presented to the	1416
+query: catching _ _ ?to add/in/without
+output: 1
+catching designer templates to add	1079
+query: intimidation out/for/down of
+output: 1
+intimidation out of	1332
+query: comparatively early ?age
+output: 2
+comparatively early	5451
+comparatively early age	1160
+query: one of the times that
+output: 1
+one of the times that	1395
+query: maybe/down we should start
+output: 1
+maybe we should start	9604
+query: standards are essential *
+output: 2
+standards are essential	4318
+standards are essential to	1720
+query: no * safe
+output: 5
+no safe	73803
+no longer safe	23503
+no import duties and safe	16790
+no one is safe	12602
+no longer a safe	4018
+query: moves included
+output: 1
+moves included	1163
+query: in around your
+output: 1
+in around your	1305
+query: informing us _
+output: 5
+informing us of	23239
+informing us that	17035
+informing us about	5477
+informing us another	5255
+informing us on	1473
+query: from ?a few fine
+output: 1
+from a few fine	1914
+query: stop spending all
+output: 1
+stop spending all	1017
+query: most/for people/before overvalue
+output: 1
+most people overvalue	3600
+query: ?* _ seven
+output: 5
+the seven	2350295
+of seven	2021102
+and seven	1186076
+for seven	1151898
+to seven	1028799
+query: or eligibility _
+output: 5
+or eligibility for	18365
+or eligibility to	3371
+or eligibility requirements	2628
+or eligibility of	1427
+or eligibility criteria	1144
+query: you ?can resell the
+output: 1
+you can resell the	1165
+query: he strives
+output: 1
+he strives	23434
+query: _ in the/down ?minds
+output: 5
+and in the	14118975
+is in the	13600340
+included in the	11995732
+used in the	9895645
+involved in the	8337792
+query: assigned permanent
+output: 1
+assigned permanent	1329
+query: ?there is a letter _
+output: 5
+is a letter from	32661
+is a letter to	12854
+is a letter of	12785
+is a letter that	8661
+is a letter written	5150
+query: _ ?including
+output: 5
+items including	2480265
+and including	1506002
+not including	1187478
+services including	994219
+information including	919108
+query: commissions created
+output: 1
+commissions created	2220
+query: ascertain what they
+output: 1
+ascertain what they	1572
+query: condemning your
+output: 1
+condemning your	1222
+query: onsite/on technical
+output: 2
+on technical	368191
+onsite technical	6358
+query: ?looking for _ ?very
+output: 5
+for the	692874802
+for this	96591646
+for your	96351831
+for all	66740071
+for more	64514374
+query: ?have an assessment of
+output: 2
+an assessment of	907385
+have an assessment of	2852
+query: girls _ much
+output: 4
+girls are much	2373
+girls so much	2119
+girls as much	1610
+girls and much	1061
+query: motion to adjourn *
+output: 5
+motion to adjourn	68453
+motion to adjourn the	20524
+motion to adjourn the meeting	12731
+motion to adjourn was	5622
+motion to adjourn at	4358
+query: _ _ by
+output: 5
+all posts by	13097157
+are provided by	7491533
+to you by	6045693
+similar items by	5959766
+information provided by	5189507
+query: on getting a good
+output: 1
+on getting a good	5044
+query: ?blowing bestiality rape
+output: 2
+bestiality rape	211825
+blowing bestiality rape	1707
+query: porn lesbian ?hentai
+output: 2
+porn lesbian	548515
+porn lesbian hentai	7425
+query: to quote into
+output: 1
+to quote into	1199
+query: in foul trouble
+output: 1
+in foul trouble	14359
+query: mf doom
+output: 1
+mf doom	7160
+query: _ _ of _ technologies
+output: 5
+the development of new technologies	29637
+the use of new technologies	28261
+the introduction of new technologies	17686
+welcomes users of assistive technologies	11523
+the impact of new technologies	11225
+query: _ _ data ?you can
+output: 5
+piece of data you can	20771
+of the data can	18954
+that the data can	17789
+so that data can	8286
+and the data can	6203
+query: focus ?effort on
+output: 2
+focus on	18801600
+focus effort on	1790
+query: guitar lines/to/_ and
+output: 5
+guitar tabs and	83936
+guitar chords and	47189
+guitar player and	23225
+guitar riffs and	22339
+guitar work and	18859
+query: the _ itself is
+output: 5
+the game itself is	14916
+the story itself is	11563
+the book itself is	11460
+the site itself is	11263
+the film itself is	8282
+query: lilly prozac/by lawsuit
+output: 1
+lilly prozac lawsuit	4615
+query: be _ ?the
+output: 5
+be used	70476455
+be the	60306010
+be able	52923778
+be in	36834106
+be made	30888493
+query: ?ministry masterbation
+output: 1
+ministry masterbation	3371
+query: design industry is
+output: 1
+design industry is	1854
+query: _ and radio
+output: 5
+television and radio	326736
+newspapers and radio	21273
+tv and radio	18268
+video and radio	14803
+print and radio	13772
+query: then _ ?for
+output: 5
+then the	17760335
+then you	11142074
+then it	7185669
+then we	6045948
+then be	5229187
+query: is _ data to
+output: 5
+is no data to	11036
+is insufficient data to	5783
+is the data to	2727
+is more data to	1888
+is sending data to	1754
+query: puke my
+output: 1
+puke my	1760
+query: the sheer length
+output: 1
+the sheer length	3024
+query: goal of the church
+output: 1
+goal of the church	1009
+query: that we _ reduced the
+output: 1
+that we have reduced the	1033
+query: _ * do _
+output: 5
+you do not	42635303
+we do not	17542320
+they do not	15662384
+to do with	13064165
+and do not	10462653
+query: burgaw burlington burnsville
+output: 1
+burgaw burlington burnsville	1267
+query: about/for _ ?the ?phone/about/by
+output: 5
+for the	692874802
+about the	129448933
+for this	96591646
+for your	96351831
+for all	66740071
+query: ?for his bat
+output: 2
+his bat	53363
+for his bat	1032
+query: _ ?by leveraging
+output: 5
+by leveraging	165741
+and leveraging	88341
+are leveraging	43911
+of leveraging	43202
+while leveraging	39128
+query: your trails be crooked
+output: 1
+your trails be crooked	1579
+query: diazepam and its/down effects
+output: 1
+diazepam and its effects	1451
+query: exchange and on/than
+output: 1
+exchange and on	2002
+query: pleasure to join you
+output: 1
+pleasure to join you	2553
+query: ?to be back until
+output: 2
+be back until	20289
+to be back until	1488
+query: fashioned communication
+output: 1
+fashioned communication	3934
+query: _ in learning
+output: 5
+interested in learning	568960
+interest in learning	74534
+students in learning	32771
+involved in learning	27318
+progress in learning	23591
+query: gold tongue
+output: 1
+gold tongue	1224
+query: mainstay in
+output: 1
+mainstay in	31214
+query: seem to _ influenced by
+output: 1
+seem to be influenced by	2635
+query: pattern _ ?is
+output: 5
+pattern of	3800693
+pattern is	939136
+pattern and	913731
+pattern that	677132
+pattern in	645125
+query: ?variable _
+output: 5
+variable in	1466669
+variable is	1237073
+variable to	674487
+variable and	534514
+variable references	481995
+query: packages per
+output: 1
+packages per	15174
+query: my next/up *
+output: 5
+my next	1036613
+my next trip	36657
+my next post	30454
+my next question	30417
+my next visit	28603
+query: * email
+output: 5
+your email	12439909
+an email	11894965
+via email	7916759
+by email	6817326
+or email	6550743
+query: every * _ _
+output: 5
+every effort to	4039441
+every time you	2064723
+every effort to assure	1707289
+every effort to assure the	1701975
+every one of	1307366
+query: type of/under/_ delivery
+output: 1
+type of delivery	19891
+query: ancient _
+output: 5
+ancient times	478878
+ancient and	445735
+ancient world	224691
+ancient city	214602
+ancient history	204422
+query: by _ staff _
+output: 5
+by the staff of	100696
+by the staff and	30958
+by a staff member	30453
+by the staff at	19203
+by a staff of	18660
+query: avg median
+output: 1
+avg median	2001
+query: be _ ?*
+output: 5
+be used	70476455
+be the	60306010
+be able	52923778
+be able to	51942714
+be in	36834106
+query: ?_ successes
+output: 5
+the successes	266638
+unexpected successes	211837
+and successes	139540
+of successes	101047
+their successes	96575
+query: operate the facility _
+output: 2
+operate the facility in	3400
+operate the facility and	1069
+query: _ type
+output: 5
+the type	11424649
+this type	5615806
+of type	2875743
+and type	2616908
+any type	2401992
+query: detail well/about
+output: 2
+detail about	576804
+detail well	1654
+query: ?_ enforce/without/on the
+output: 5
+on the	800328815
+based on the	25951685
+without the	20633980
+click on the	15484972
+information on the	11235218
+query: every resident/in/for to/with
+output: 1
+every resident to	1157
+query: ?on the *
+output: 5
+on the	800328815
+the same	186235801
+the first	159289000
+the following	136863774
+the most	114019350
+query: both _
+output: 5
+both the	21211916
+both of	8143208
+both in	5690511
+both sides	5467726
+both to	1779793
+query: interwoven stories
+output: 1
+interwoven stories	4352
+query: but/to/up _ bends
+output: 2
+but it bends	4556
+to the bends	1163
+query: support efforts ?to _
+output: 5
+support efforts to	61897
+support efforts in	10085
+support efforts by	7727
+support efforts of	4769
+support efforts to improve	3880
+query: tuner computer ?_
+output: 2
+tuner computer	1402
+tuner computer laptop	1050
+query: degrees ?in a ?search
+output: 1
+degrees in a search	1235
+query: that/than no credit card may
+output: 1
+that no credit card may	3071
+query: sea _ _
+output: 5
+sea and the	150577
+sea level rise	96193
+sea surface temperature	89117
+sea level and	77445
+sea in the	62107
+query: ?_ are correct that the
+output: 2
+are correct that the	9426
+you are correct that the	2440
+query: ?* _ would
+output: 5
+it would	36427262
+you would	33034504
+that would	27000864
+they would	15764591
+he would	14547512
+query: defect enhancement ?task
+output: 2
+defect enhancement	11267
+defect enhancement task	11065
+query: exquisite _ _
+output: 5
+exquisite bouquets like	73730
+exquisite collection of	11405
+exquisite selection of	10717
+exquisite black level	10028
+exquisite food related	8131
+query: quest for power
+output: 1
+quest for power	14328
+query: ?_ her _
+output: 5
+her to	8671624
+her own	7599875
+her husband	6035263
+her and	4521770
+her in	3464359
+query: solutions are unable to fulfill
+output: 1
+solutions are unable to fulfill	6273
+query: toner when you can get
+output: 1
+toner when you can get	1227
+query: that/in/about/of _ _ use ?the
+output: 5
+that you can use	767129
+about how we use	579352
+in order to use	419333
+of firms that use	196758
+of how to use	176476
+query: out a referral
+output: 1
+out a referral	1099
+query: to bogs
+output: 1
+to bogs	1959
+query: like ?art and music
+output: 1
+like art and music	1055
+query: corby _
+output: 5
+corby company	4122
+corby northants	1944
+corby homeowner	1696
+corby personal	1696
+corby secured	1696
+query: to/before/on _ mortgage
+output: 5
+on your mortgage	148821
+on a mortgage	124964
+on the mortgage	63110
+to the mortgage	56706
+to let mortgage	55706
+query: french doors leading
+output: 1
+french doors leading	4064
+query: success/by you need ?to
+output: 2
+success you need	8680
+success you need to	3140
+query: _ ?_
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: actually willing to _
+output: 2
+actually willing to pay	2109
+actually willing to lead	1816
+query: facilities _
+output: 5
+facilities and	4030327
+facilities for	2219465
+facilities in	2160157
+facilities are	1607111
+facilities to	1346335
+query: member/on/with servers
+output: 3
+on servers	186317
+with servers	39536
+member servers	10618
+query: land _ that time
+output: 1
+land at that time	2309
+query: hilda transex
+output: 1
+hilda transex	2320
+query: _ _ their _
+output: 5
+property of their respective	28145360
+owned by their respective	1794744
+trademarks of their respective	1774299
+property of their posters	1697698
+responsibility for their content	969155
+query: attorney takes
+output: 1
+attorney takes	2965
+query: _ rake back
+output: 2
+poker rake back	3155
+back rake back	1005
+query: _ to/of ?work and learn
+output: 2
+listen to and learn	4754
+place to work and learn	1236
+query: up and ?change ?the/up/of
+output: 5
+up and	28750069
+up and the	534171
+up and up	98839
+up and change	17188
+up and of	7310
+query: complete path _ the
+output: 3
+complete path to the	9795
+complete path of the	2939
+complete path for the	2579
+query: _ ketogenic
+output: 3
+the ketogenic	9819
+carb ketogenic	1172
+of ketogenic	1078
+query: of them ?that seek
+output: 2
+of them that seek	3572
+of them seek	2547
+query: cut flowers are/in/than/about ?available in
+output: 1
+cut flowers are available in	1550
+query: ?redemption has *
+output: 5
+has been	196769958
+has pictures	76915768
+has not	32436959
+has the	29970755
+has to	25797057
+query: ?via _ _ and
+output: 5
+for business and	18430871
+find answers and	17868076
+payment details and	14846987
+package origin and	4046554
+your friends and	3863326
+query: * _ that _ an
+output: 5
+to that of an	64637
+is that of an	52806
+and that is an	33200
+than that of an	30709
+think that is an	24332
+query: various implementations of
+output: 1
+various implementations of	6459
+query: options or ?if
+output: 2
+options or	341482
+options or if	1934
+query: the vector number
+output: 1
+the vector number	1118
+query: and kriss
+output: 1
+and kriss	1078
+query: the _ _
+output: 5
+the end of	45438156
+the number of	38591544
+the use of	35852811
+the property of	28765389
+the fact that	26011989
+query: when the siege
+output: 1
+when the siege	1831
+query: _ _ the web
+output: 5
+directory on the web	1598798
+available on the web	722536
+group on the web	288974
+links on the web	244985
+and on the web	216506
+query: safeguards through
+output: 1
+safeguards through	1096
+query: history and product
+output: 1
+history and product	1937
+query: ?of _ management activities
+output: 5
+and management activities	22371
+risk management activities	20930
+waste management activities	16746
+forest management activities	13590
+resource management activities	10932
+query: were sentenced to two
+output: 1
+were sentenced to two	1774
+query: hour ?up/near _
+output: 5
+hour of	2095761
+hour and	1766294
+hour or	1326898
+hour to	930567
+hour before	679798
+query: flood program
+output: 1
+flood program	1621
+query: _ _ and
+output: 5
+for business and	18430871
+find answers and	17868076
+payment details and	14846987
+package origin and	4046554
+your friends and	3863326
+query: it _ _ _
+output: 5
+it is possible to	3247349
+it is important to	3005384
+it is necessary to	2061058
+it can not be	1878077
+it available again through	1718951
+query: _ materials such
+output: 5
+of materials such	27724
+raw materials such	13944
+other materials such	13794
+natural materials such	9142
+building materials such	8281
+query: ?_ of the participants
+output: 5
+of the participants	812214
+one of the participants	49643
+all of the participants	35381
+some of the participants	27839
+many of the participants	24919
+query: per _ additional/to line
+output: 1
+per each additional line	6952
+query: ?transexuales de _
+output: 5
+de la	20165624
+de sexo	3020223
+de los	2639585
+de las	1748657
+de facto	1040227
+query: activities/than/about _
+output: 5
+about the	129448933
+than the	50837786
+about this	43532297
+about it	23933578
+than one	16997028
+query: to ?earn college
+output: 2
+to college	1684223
+to earn college	19063
+query: investigate _ research
+output: 2
+investigate and research	3813
+investigate the research	1185
+query: approach to _
+output: 5
+approach to the	2041358
+approach to this	170779
+approach to learning	131353
+approach to managing	115545
+approach to teaching	114317
+query: him guilty _ a reasonable
+output: 1
+him guilty beyond a reasonable	1576
+query: the need for training in
+output: 1
+the need for training in	3156
+query: for advocates
+output: 1
+for advocates	25081
+query: _ jesse at
+output: 2
+rt jesse at	8180
+by jesse at	1837
+query: balls collide/near/up/near
+output: 2
+balls up	16615
+balls collide	1192
+query: ?_ if someone _
+output: 5
+if someone has	279259
+if someone is	259237
+out if someone has	140665
+if someone could	138208
+if someone else	124531
+query: emails is
+output: 1
+emails is	30048
+query: have to stand together
+output: 1
+have to stand together	1325
+query: itself/on * ?_
+output: 5
+on the	800328815
+on this	113116323
+on your	66415307
+on line	39911189
+on my	29232863
+query: direction of the/of street
+output: 1
+direction of the street	2266
+query: taxas/for/* ?holdem
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: ?to _ stories
+output: 5
+sex stories	4287354
+incest stories	4285032
+rape stories	2577919
+the stories	2287005
+short stories	1406081
+query: ?than the _
+output: 5
+the same	186235801
+the first	159289000
+the following	136863774
+the most	114019350
+the world	112087488
+query: collections whose
+output: 1
+collections whose	1653
+query: this film would be
+output: 1
+this film would be	5499
+query: or ?neglect _
+output: 5
+or the	64884474
+or more	47058527
+or other	44347069
+or any	28564885
+or not	27555367
+query: _ no
+output: 5
+is no	52795788
+have no	24300804
+are no	24022791
+with no	20095402
+and no	16712015
+query: projects in this theme
+output: 1
+projects in this theme	1120
+query: behavior while the
+output: 1
+behavior while the	1626
+query: with belly _
+output: 3
+with belly button	1998
+with belly dancing	1415
+with belly dancers	1168
+query: de toma
+output: 1
+de toma	2800
+query: his/before _ party that
+output: 1
+his own party that	1497
+query: schools ?and colleges _
+output: 5
+schools and colleges in	19724
+schools and colleges and	12159
+schools and colleges to	11609
+schools and colleges are	8828
+schools and colleges of	8013
+query: welding inspection
+output: 1
+welding inspection	2394
+query: the ?pure component
+output: 2
+the component	1663862
+the pure component	1313
+query: _ * on/up _
+output: 5
+based on the	25951685
+click on the	15484972
+information on the	11235218
+information on this	7596911
+is on the	7463010
+query: the initial quality of
+output: 1
+the initial quality of	1181
+query: positive contribution/of ?to the _
+output: 5
+positive contribution to the community	2563
+positive contribution to the development	2333
+positive contribution to the quality	1113
+positive contribution to the environment	1105
+positive contribution to the world	1051
+query: time _ to complete
+output: 5
+time required to complete	38741
+time needed to complete	24259
+time taken to complete	16925
+time necessary to complete	10213
+time limit to complete	2204
+query: on the latest text
+output: 1
+on the latest text	1633
+query: _ that like
+output: 5
+people that like	30777
+you that like	30725
+is that like	29629
+those that like	23678
+not that like	13803
+query: _ and _
+output: 5
+trademarks and brands	21001778
+buy and sell	19691909
+business and for	17889468
+answers and contact	17860181
+details and return	14835972
+query: _ a group/at/*
+output: 5
+to a friend	43913442
+not a valid	16291909
+as a result	14811220
+not a valid stream	12024103
+not a valid stream resource	12023552
+query: _ day loan/of/* _
+output: 5
+the day of	2775976
+first day of	2203020
+the day before	1308456
+the day of the	1142917
+last day of	1134152
+query: some specifics
+output: 1
+some specifics	28176
+query: noticed the *
+output: 5
+noticed the	1040846
+noticed the same	33779
+noticed the new	28661
+noticed the difference	15575
+noticed the following	15365
+query: do not/in/of have a new
+output: 1
+do not have a new	7106
+query: girl dies/to _ bird
+output: 2
+girl dies of bird	3393
+girl dies from bird	1103
+query: _ personally identifiable ?information *
+output: 5
+your personally identifiable	164676
+your personally identifiable information	161885
+any personally identifiable	109130
+any personally identifiable information	102655
+collects personally identifiable	83102
+query: heparin _
+output: 5
+heparin and	35081
+heparin in	21323
+heparin binding	12936
+heparin or	12275
+heparin therapy	10374
+query: usually buried in
+output: 1
+usually buried in	1781
+query: _ has dropped
+output: 5
+rate has dropped	16264
+it has dropped	11646
+price has dropped	9176
+which has dropped	8726
+and has dropped	6013
+query: confine your _ to
+output: 1
+confine your search to	1518
+query: ?viewpoint expressed in
+output: 2
+expressed in	5205524
+viewpoint expressed in	3668
+query: ?subsequently/near he
+output: 2
+near he	8544
+subsequently he	6863
+query: indian site gay groups
+output: 1
+indian site gay groups	5682
+query: and dynamic way
+output: 1
+and dynamic way	7821
+query: when he was in ?_
+output: 5
+when he was in	198505
+when he was in the	48260
+when he was in his	20760
+when he was in high	6634
+when he was in college	4326
+query: agree * have _
+output: 5
+agree that you have read	29807
+agree to have read	8996
+agree to have his	7445
+agree to have the	7031
+agree that we have no	5783
+query: are ?not negotiable in
+output: 1
+are not negotiable in	1302
+query: * with a local
+output: 5
+with a local	600869
+gift with a local	73760
+floral gift with a local	73737
+work with a local	16000
+working with a local	11542
+query: _ ?at
+output: 5
+look at	39774935
+and at	16349541
+available at	15710056
+more at	14668679
+is at	14500086
+query: little *
+output: 5
+little bit	6693276
+little more	5891095
+little or	2609140
+little to	2456274
+little as	2283809
+query: he was _ _ ?another
+output: 5
+he was going to	851164
+he was able to	540528
+he was in the	365445
+he was trying to	281433
+he was one of	279260
+query: implementing change and/near configuration
+output: 1
+implementing change and configuration	1260
+query: the same capacity to
+output: 1
+the same capacity to	3583
+query: of drivers that
+output: 1
+of drivers that	9049
+query: _ _ ?breakfast room
+output: 5
+in the room	2272889
+of the room	1803016
+the living room	1248075
+in double room	1004512
+in a room	716834
+query: many exciting/in career _
+output: 1
+many exciting career opportunities	2793
+query: ?ram card
+output: 1
+ram card	2291
+query: _ to publicize
+output: 5
+thought to publicize	14817
+and to publicize	6791
+way to publicize	6784
+used to publicize	5919
+like to publicize	5521
+query: into the margins/near of
+output: 1
+into the margins of	2106
+query: order to/to/without ensure protection/than
+output: 1
+order to ensure protection	1919
+query: last two digits of year
+output: 1
+last two digits of year	1342
+query: _ ?is very/on
+output: 5
+based on	101076303
+information on	62224751
+click on	28413063
+is very	27764972
+items on	21528753
+query: ?_ _ such
+output: 5
+of such	25870591
+in such	12371246
+for such	8529868
+to such	7222969
+that such	6854851
+query: _ crunch
+output: 5
+the crunch	75050
+to crunch	48432
+power crunch	24183
+and crunch	20739
+credit crunch	20509
+query: is well built ?and
+output: 2
+is well built	11978
+is well built and	3892
+query: matters _ ancillary/on/on
+output: 5
+matters not on	4575
+matters and on	4319
+matters listed on	3281
+matters touching ancillary	3266
+matters based on	3247
+query: from the ?outset _
+output: 5
+from the list	3737324
+from the same	3287554
+from the date	3017024
+from the first	2383696
+from the following	2163154
+query: _ have further
+output: 5
+you have further	184829
+to have further	25729
+we have further	16210
+will have further	11692
+may have further	11019
+query: the conflict does not
+output: 1
+the conflict does not	1932
+query: ?not as big * ?it
+output: 5
+as big	990839
+as big as	567377
+not as big	100593
+as big as the	97467
+not as big as	49951
+query: commercial purposes/before are authorized/without _
+output: 1
+commercial purposes are authorized without	1330
+query: ?_ coalition _
+output: 5
+coalition of	878330
+coalition forces	293325
+coalition government	184391
+coalition to	107679
+coalition with	104348
+query: reunion and the
+output: 1
+reunion and the	3450
+query: dr _
+output: 5
+dr dre	88722
+dr martens	47267
+dr atkins	38984
+dr phil	33686
+dr who	31200
+query: the right lane
+output: 1
+the right lane	70123
+query: recent/from/of movies are
+output: 2
+of movies are	6747
+recent movies are	1629
+query: ?_ more cheerful
+output: 5
+more cheerful	41662
+be more cheerful	4209
+much more cheerful	2746
+and more cheerful	2066
+little more cheerful	1229
+query: _ prone
+output: 5
+are prone	276882
+more prone	242578
+is prone	174125
+less prone	97716
+and prone	95030
+query: _ was
+output: 5
+it was	117973454
+he was	57658957
+there was	34578543
+that was	33913085
+and was	26743391
+query: _ pleasing ?to the ?_
+output: 5
+is pleasing to the	17391
+and pleasing to the	14513
+more pleasing to the	10813
+and pleasing to the eye	9501
+is pleasing to the eye	9174
+query: patch editor
+output: 1
+patch editor	2668
+query: talk to _
+output: 5
+talk to the	984536
+talk to you	895540
+talk to me	684305
+talk to your	546333
+talk to him	467791
+query: model pic teen _
+output: 3
+model pic teen porn	2260
+model pic teen asian	2258
+model pic teen birthday	2254
+query: ?disseminated amongst
+output: 1
+disseminated amongst	1159
+query: _ is/since ?*
+output: 5
+it is	245002494
+that is	112872973
+there is	110560376
+which is	91894615
+this is	86818400
+query: suck thick azz
+output: 1
+suck thick azz	1624
+query: date * by
+output: 5
+date by	452309
+date specified by	31334
+date set by	23231
+date varies by	17765
+date of receipt by	17316
+query: _ _ ?the
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: based on misrepresentations
+output: 1
+based on misrepresentations	1306
+query: trial/to/about run
+output: 3
+to run	16750951
+trial run	86037
+about run	11877
+query: ?on/near the * sex/* _
+output: 5
+the same	186235801
+the first	159289000
+the following	136863774
+the most	114019350
+the world	112087488
+query: could not see _
+output: 5
+could not see the	153504
+could not see it	58105
+could not see any	47919
+could not see anything	44391
+could not see what	32319
+query: the/for ?great judge
+output: 3
+the judge	2950188
+for judge	15818
+the great judge	1062
+query: received from ?the following
+output: 1
+received from the following	12265
+query: ?been prosecuted ?and
+output: 3
+been prosecuted	60993
+prosecuted and	56803
+been prosecuted and	3777
+query: generalizing from
+output: 1
+generalizing from	8698
+query: pm/since re
+output: 2
+since re	11877
+pm re	6924
+query: automatically/by credited _ your
+output: 1
+automatically credited to your	2961
+query: others/at in ?_ work
+output: 4
+others in the work	2631
+others in accomplishing work	1328
+others in work	1310
+others in their work	1241
+query: serving chicken
+output: 1
+serving chicken	1792
+query: an increasing source of
+output: 1
+an increasing source of	2545
+query: ?we both _ have
+output: 5
+both sides have	71577
+both parties have	61300
+both countries have	26065
+both parents have	18808
+both companies have	16287
+query: _ his law
+output: 5
+received his law	23123
+and his law	21257
+of his law	15483
+in his law	11060
+to his law	10523
+query: ?meet its debt obligations
+output: 2
+its debt obligations	6225
+meet its debt obligations	1578
+query: _ really knows
+output: 5
+one really knows	75392
+who really knows	39981
+nobody really knows	21972
+he really knows	13062
+analyst really knows	11357
+query: _ not record
+output: 5
+do not record	56775
+did not record	54870
+does not record	42307
+can not record	30020
+will not record	14888
+query: fragrance to be
+output: 1
+fragrance to be	1339
+query: when/before he made his
+output: 2
+when he made his	32434
+before he made his	6862
+query: industries and ?major
+output: 2
+industries and	924628
+industries and major	1320
+query: ?was to/up/down/up meet up
+output: 2
+to meet up	333838
+was to meet up	2025
+query: microwave was ?_ after
+output: 1
+microwave was invented after	1268
+query: and property values have
+output: 1
+and property values have	4225
+query: to businesses located/after in
+output: 1
+to businesses located in	3368
+query: _ _ usefulness
+output: 5
+completeness or usefulness	69495
+of the usefulness	42249
+on the usefulness	36332
+about the usefulness	30404
+and the usefulness	21332
+query: _ differentiated ?by the following/to/at/for
+output: 1
+be differentiated by the following	28944
+query: and _ your
+output: 5
+and share your	3449570
+and get your	898367
+and make your	739715
+and manage your	416781
+and all your	406402
+query: and _ plots
+output: 5
+and verification plots	18491
+and the plots	8925
+and whisker plots	4780
+and scatter plots	4231
+and control plots	2973
+query: problem you face
+output: 1
+problem you face	3760
+query: _ could
+output: 5
+you could	18369025
+that could	13521912
+we could	11245380
+he could	10882431
+they could	10849464
+query: installment term to
+output: 1
+installment term to	1699
+query: _ film/of/after/of and
+output: 5
+the film and	370395
+aware of and	187383
+of film and	120041
+knowledge of and	119536
+in film and	109810
+query: is not _ on the
+output: 5
+is not available on the	45277
+is not based on the	39227
+is not dependent on the	33592
+is not listed on the	31252
+is not binding on the	16611
+query: explosive ?air/of
+output: 2
+explosive of	4120
+explosive air	1279
+query: _ *
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: about ?_ toxins
+output: 2
+about toxins	2392
+about the toxins	1024
+query: ?praxis of/between/to _
+output: 5
+of the	2766332391
+to the	1139248999
+to be	505148997
+of this	258707741
+to get	129571372
+query: the next _ in
+output: 5
+the next step in	250903
+the next generation in	76749
+the next section in	72664
+the next level in	51451
+the next day in	36547
+query: have actually ?_
+output: 5
+have actually	757961
+have actually been	133928
+have actually seen	23888
+have actually done	20595
+have actually had	20071
+query: _ citizenship _
+output: 5
+of citizenship and	45340
+the citizenship of	31497
+of citizenship in	25470
+of citizenship or	14058
+of citizenship is	12527
+query: assistant _ secretary for
+output: 1
+assistant defense secretary for	1127
+query: ?final _ ?toll
+output: 5
+final fantasy	1522921
+final report	1344814
+us toll	1150601
+final decision	1123845
+call toll	1053854
+query: off all brand
+output: 1
+off all brand	20262
+query: contracts ?as of
+output: 2
+contracts of	257615
+contracts as of	4035
+query: flu pandemic ?that could
+output: 2
+flu pandemic could	7989
+flu pandemic that could	1793
+query: provided a means _
+output: 4
+provided a means of	8644
+provided a means for	6745
+provided a means to	5765
+provided a means by	1436
+query: expect ?the same from
+output: 1
+expect the same from	26391
+query: * compensation and
+output: 5
+compensation and	771233
+of compensation and	42907
+generous compensation and	39025
+provide generous compensation and	38097
+the compensation and	27264
+query: _ less _ point
+output: 2
+at less than point	28778
+value less estimated point	1081
+query: of resident status
+output: 1
+of resident status	1596
+query: _ * ?coffee/about
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: heavy metal fans/in/of
+output: 3
+heavy metal in	6450
+heavy metal fans	3467
+heavy metal of	1796
+query: symptoms of an _ reaction
+output: 1
+symptoms of an allergic reaction	3875
+query: component ?which ?has
+output: 3
+component has	140072
+component which	120853
+component which has	3840
+query: you to use/since a _
+output: 5
+you to use a checking	3778
+you to use a single	1891
+you to use a different	1738
+you to use a wide	1219
+you to use a credit	1016
+query: which/with _ that instead _
+output: 1
+which means that instead of	1478
+query: _ the local fire
+output: 5
+of the local fire	5136
+with the local fire	4916
+by the local fire	4817
+to the local fire	4089
+and the local fire	3073
+query: to give up _
+output: 5
+to give up the	207794
+to give up their	143268
+to give up on	130163
+to give up his	86822
+to give up her	58473
+query: thats what i said
+output: 1
+thats what i said	2329
+query: was/by _ good _
+output: 5
+was a good idea	199919
+was a good thing	136308
+was as good as	105020
+was a good one	103053
+was not good enough	100085
+query: that was sampled
+output: 1
+that was sampled	2766
+query: same type as the original
+output: 1
+same type as the original	1059
+query: thing we want
+output: 1
+thing we want	41529
+query: the first to advocate
+output: 1
+the first to advocate	2550
+query: bad about leaving
+output: 1
+bad about leaving	2362
+query: in space _
+output: 5
+in space and	227829
+in space is	30398
+in space or	23871
+in space for	22913
+in space exploration	22758
+query: intended ?for reference only
+output: 1
+intended for reference only	3620
+query: during * *
+output: 5
+during the	74334235
+during peak	4622954
+during this	4528184
+during peak periods	4353246
+during his	2844700
+query: of/for participants ?who _
+output: 5
+of participants in	158713
+for participants to	113139
+of participants and	85609
+for participants in	54994
+of participants is	45138
+query: primary _ should
+output: 5
+primary sources should	4995
+primary mirrors should	4177
+primary focus should	4082
+primary concern should	2663
+primary goal should	2409
+query: when tracing
+output: 1
+when tracing	7660
+query: to focus on a few
+output: 1
+to focus on a few	6734
+query: ?the _ sheet
+output: 5
+balance sheet	1682199
+fact sheet	719943
+the sheet	707227
+data sheet	649551
+the balance sheet	480784
+query: would be useful/near to ?me
+output: 2
+would be useful to	247575
+would be useful to me	2679
+query: shacks in the
+output: 1
+shacks in the	2362
+query: as to length of
+output: 1
+as to length of	1496
+query: _ be * on
+output: 5
+to be on	3347397
+will be on	3305531
+can be found on	2255232
+will be held on	1116518
+will be based on	986685
+query: and task and/before
+output: 1
+and task and	1222
+query: ?illegal bbs
+output: 1
+illegal bbs	2217
+query: ?quartzites and
+output: 1
+quartzites and	1878
+query: sensors are/since/up _
+output: 5
+sensors are used	15011
+sensors are available	8403
+sensors are not	8078
+sensors are designed	5595
+sensors are also	4663
+query: image file in/than
+output: 1
+image file in	16921
+query: _ dolla
+output: 2
+cat dolla	1748
+of dolla	1479
+query: as _ pure
+output: 5
+as a pure	63386
+as the pure	11296
+as in pure	1580
+as being pure	1084
+as much pure	1071
+query: and find yourself
+output: 1
+and find yourself	54306
+query: _ and
+output: 5
+business and	29056366
+up and	28750069
+time and	28108829
+trademarks and	25079375
+information and	24465557
+query: _ all of _ relevant
+output: 5
+you all of our relevant	8240
+of all of the relevant	3693
+with all of the relevant	3261
+to all of the relevant	2112
+that all of the relevant	1948
+query: frame is _ in
+output: 4
+frame is available in	2748
+frame is included in	2204
+frame is shown in	1512
+frame is finished in	1092
+query: associated ?intellectual property
+output: 2
+associated property	7792
+associated intellectual property	4177
+query: access sql
+output: 1
+access sql	6887
+query: more noble than ?those
+output: 2
+more noble than	12139
+more noble than those	2478
+query: adventures _ _ resorts
+output: 1
+adventures hotels and resorts	1067
+query: creations personalization *
+output: 4
+creations personalization	1187
+creations personalization mall	1183
+creations personalization mall learning	1134
+creations personalization mall learning center	1134
+query: revenue to/in/on be derived
+output: 1
+revenue to be derived	1530
+query: loan carnforth compare loans *
+output: 2
+loan carnforth compare loans	6784
+loan carnforth compare loans usk	6784
+query: vote _ _
+output: 5
+vote in polls	2796928
+vote on the	742221
+vote for the	692692
+vote of the	666169
+vote for this	613562
+query: ?the _ that
+output: 5
+is that	73539805
+and that	67400663
+so that	51168825
+of that	35242145
+fact that	32155643
+query: specification as *
+output: 5
+specification as	72858
+specification as the	6873
+specification as well	5052
+specification as well as	3744
+specification as an	3643
+query: predictive performance/down of the
+output: 1
+predictive performance of the	1386
+query: are being/* _ to the
+output: 5
+are subject to the	1284274
+are related to the	416359
+are added to the	404426
+are connected to the	300493
+are open to the	294991
+query: have a compatable web browser
+output: 1
+have a compatable web browser	3432
+query: must summarize
+output: 1
+must summarize	4541
+query: _ a *
+output: 5
+to a friend	43913442
+not a valid	16291909
+as a result	14811220
+not a valid stream	12024103
+not a valid stream resource	12023552
+query: and a number of _
+output: 5
+and a number of other	213155
+and a number of the	24607
+and a number of others	22159
+and a number of smaller	11376
+and a number of people	11279
+query: and _ sits
+output: 5
+and it sits	11038
+and now sits	9482
+and he sits	8724
+and then sits	6414
+and she sits	5454
+query: _ had slept
+output: 5
+he had slept	13972
+she had slept	8051
+they had slept	3912
+who had slept	3813
+we had slept	2251
+query: fee and *
+output: 5
+fee and	1124622
+fee and no	107056
+fee and no payments	82868
+fee and the	70447
+fee and not	20557
+query: must confirm * the/for wizard
+output: 1
+must confirm that the wizard	1013
+query: occupational health nurses
+output: 1
+occupational health nurses	5275
+query: documentation for details of
+output: 1
+documentation for details of	1302
+query: ?be a roller *
+output: 2
+be a roller	3210
+be a roller coaster	1942
+query: that could ?dramatically ?increase
+output: 4
+that could	13521912
+that could increase	24078
+that could dramatically	9054
+that could dramatically increase	1074
+query: _ _ _ _
+output: 5
+property of their respective	28145360
+of their respective owners	27208267
+are the property of	26037459
+the property of their	25193787
+result in new window	24060417
+query: annexation of any
+output: 1
+annexation of any	1266
+query: which _ * ?will
+output: 5
+which is	91894615
+which the	46692682
+which are	36255407
+which was	24575277
+which will	19245363
+query: curly brown
+output: 1
+curly brown	11201
+query: are then _ with
+output: 5
+are then compared with	8331
+are then presented with	4147
+are then left with	4137
+are then combined with	4121
+are then faced with	3343
+query: ?_ as the ?_
+output: 5
+as the	169662690
+such as the	16391011
+well as the	15968241
+known as the	6065819
+long as the	3283588
+query: ?execution/after including
+output: 2
+after including	13536
+execution including	1940
+query: to make _ jump
+output: 5
+to make the jump	21817
+to make a jump	3425
+to make you jump	2804
+to make that jump	1786
+to make him jump	1608
+query: democratic deficit/about of
+output: 1
+democratic deficit of	1285
+query: in _ of _
+output: 5
+in front of the	4452806
+in one of the	3260977
+in terms of the	3145901
+in respect of the	1628500
+in each of the	1616840
+query: and/* they are free
+output: 5
+they are free	168237
+that they are free	27910
+and they are free	12782
+but they are free	8917
+because they are free	7002
+query: than on the field
+output: 1
+than on the field	1040
+query: carry _ *
+output: 5
+carry out	7046943
+carry the	2097268
+carry on	1771383
+carry out the	1563334
+carry it	597000
+query: _ would be my
+output: 5
+it would be my	37729
+that would be my	31780
+this would be my	21014
+what would be my	5888
+you would be my	4372
+query: kit _ to
+output: 5
+kit designed to	6482
+kit is to	5396
+kit according to	4997
+kit how to	2880
+kit available to	2498
+query: be spent on internet purchases
+output: 1
+be spent on internet purchases	3649
+query: designed to keep/before him
+output: 1
+designed to keep him	1225
+query: of the text in _
+output: 5
+of the text in the	24209
+of the text in this	7365
+of the text in cell	4505
+of the text in your	1331
+of the text in question	1245
+query: at the global/for scale
+output: 1
+at the global scale	6097
+query: ?has ?acted _ behalf
+output: 5
+on behalf	11059107
+your behalf	4564070
+their behalf	459667
+our behalf	274890
+own behalf	256146
+query: _ by/for fever or
+output: 1
+accompanied by fever or	2232
+query: produced throughout the year
+output: 1
+produced throughout the year	1056
+query: * the ?* few
+output: 5
+the few	3916105
+the last few	3296007
+the next few	3231212
+the past few	2928408
+of the few	2188340
+query: market ?in _
+output: 5
+market for	3846007
+market and	3762687
+market share	2638100
+market is	2611849
+market value	2567685
+query: in ?support _ the _
+output: 5
+in much the same	347505
+in receiving the included	236360
+in exactly the same	229394
+in which the student	146156
+in half the time	116259
+query: _ ?legal
+output: 5
+the legal	6795778
+and legal	3232982
+of legal	2850513
+or legal	1400508
+for legal	1108815
+query: substance ?_ has
+output: 5
+substance has	48625
+substance that has	13186
+substance which has	5209
+substance abuse has	3419
+substance and has	1507
+query: _ solid
+output: 5
+of solid	1218524
+the solid	1089475
+and solid	898195
+with solid	451150
+in solid	393746
+query: _ developer
+output: 5
+the developer	1736342
+web developer	441059
+software developer	412912
+list developer	306522
+and developer	269952
+query: ?enlarge _ number of
+output: 5
+the number of	38591544
+large number of	5202837
+total number of	3889175
+small number of	1972378
+any number of	1669638
+query: _ wear
+output: 5
+to wear	4240509
+not wear	733977
+you wear	621962
+and wear	613252
+can wear	369093
+query: _ applications
+output: 5
+and applications	2701269
+of applications	2685860
+the applications	1498381
+for applications	1211530
+other applications	1050110
+query: of an _
+output: 5
+of an individual	1214193
+of an existing	812032
+of an old	724763
+of an object	720853
+of an application	665329
+query: workers in total
+output: 1
+workers in total	1652
+query: allows _ wind
+output: 1
+allows the wind	1283
+query: then discounting
+output: 1
+then discounting	1167
+query: ?_ of burning
+output: 5
+of burning	356760
+smell of burning	24934
+capable of burning	8991
+instead of burning	7012
+process of burning	5527
+query: gay hotel in
+output: 1
+gay hotel in	3240
+query: persons with disabi
+output: 1
+persons with disabi	4209
+query: down my chest and
+output: 1
+down my chest and	1723
+query: persons ?who can ?obtain
+output: 4
+persons can	111092
+persons who can	39886
+persons who can obtain	2172
+persons can obtain	2160
+query: _ credit * refinance mortgage
+output: 3
+bad credit loans refinance mortgage	4126
+bad credit refinance mortgage	3441
+bad credit mortgage refinance mortgage	1892
+query: the layer ?where/after
+output: 2
+the layer	562168
+the layer where	2790
+query: cartier/on casio
+output: 2
+on casio	2162
+cartier casio	1041
+query: ?* stores _
+output: 5
+stores listed	2506005
+these stores listed	2457211
+are these stores listed	2457147
+stores in	2235994
+stores are	1806096
+query: _ ?for them
+output: 5
+of them	44131746
+to them	18017473
+for them	14410193
+with them	13455906
+on them	6074545
+query: principal amount not exceeding
+output: 1
+principal amount not exceeding	1478
+query: ?and/about should ?be/up/near protected
+output: 2
+should be protected	199352
+and should be protected	12355
+query: for ?other/under downloads
+output: 2
+for other downloads	138908
+for downloads	106834
+query: _ ?of turning
+output: 5
+and turning	712869
+by turning	636719
+are turning	512816
+of turning	505161
+is turning	486143
+query: dealing with ?technical
+output: 2
+dealing with	12349371
+dealing with technical	6968
+query: our casual ?thong
+output: 2
+our casual	14567
+our casual thong	5208
+query: the soldiers in his
+output: 1
+the soldiers in his	1251
+query: energy deposition and
+output: 1
+energy deposition and	1744
+query: has _ fixed _
+output: 5
+has been fixed in	87906
+has been fixed for	13607
+has been fixed to	12283
+has been fixed and	12272
+has been fixed by	11276
+query: ?divorce _ _ _
+output: 5
+one of the	99754198
+as well as	97009753
+part of the	58041977
+be able to	51942714
+the end of	45438156
+query: research was completed
+output: 1
+research was completed	5345
+query: _ would ?_ _ to
+output: 5
+you would like to	13764914
+and would like to	3922918
+we would like to	1314477
+who would like to	840748
+or would like to	579551
+query: grant _ for
+output: 5
+grant permission for	45268
+grant program for	31677
+grant funds for	28639
+grant funding for	28048
+grant money for	25801
+query: open mic with/between
+output: 1
+open mic with	1716
+query: benefit of/from/than spending
+output: 2
+benefit from spending	2105
+benefit of spending	1009
+query: damned ?glad/*
+output: 5
+damned if	165775
+damned thing	67341
+damned good	57369
+damned if you	36783
+damned if you do	31431
+query: as ?used here _ ?to
+output: 5
+as here in	12339
+as here and	3101
+as here the	2974
+as here at	2859
+as here on	2512
+query: target is not met
+output: 1
+target is not met	1450
+query: huge _ huge
+output: 5
+huge tits huge	78296
+huge boobs huge	76999
+huge cocks huge	68131
+huge cock huge	63573
+huge huge huge	21450
+query: * is for
+output: 5
+is for	25746343
+and is for	2100621
+parties and is for	1940511
+third parties and is for	1940435
+it is for	1387728
+query: ?_ the primetime
+output: 3
+the primetime	9830
+of the primetime	1392
+on the primetime	1086
+query: _ ?antivirus
+output: 5
+norton antivirus	565993
+panda antivirus	198590
+free antivirus	105318
+telecharger antivirus	73512
+and antivirus	64739
+query: can match her
+output: 1
+can match her	1907
+query: relax more and
+output: 1
+relax more and	2733
+query: there ?* no ownership
+output: 1
+there is no ownership	1166
+query: and i really wanna
+output: 1
+and i really wanna	1870
+query: ?should be active when ?the
+output: 4
+be active when	8175
+be active when the	2929
+should be active when	1263
+should be active when the	1016
+query: the miniature golf course
+output: 1
+the miniature golf course	1745
+query: nominations ?due
+output: 1
+nominations due	5775
+query: _ ?pretty
+output: 5
+is pretty	4187667
+was pretty	2695745
+are pretty	1749854
+be pretty	1190308
+some pretty	874617
+query: _ the warriors/at/down
+output: 5
+on the down	105117
+of the at	65295
+of the down	61851
+in the down	46561
+for the down	42452
+query: out of ?luck when
+output: 2
+out of when	5045
+out of luck when	2277
+query: weekend for its
+output: 1
+weekend for its	1403
+query: transaction back
+output: 1
+transaction back	2166
+query: during their job ?search
+output: 2
+during their job	2152
+during their job search	1537
+query: force prosecutors
+output: 1
+force prosecutors	1162
+query: all _ are/by/of/to charged
+output: 1
+all orders are charged	3193
+query: are easily converted into
+output: 1
+are easily converted into	1186
+query: _ client checking out ?the/under/of/on
+output: 2
+returning client checking out	2936
+returning client checking out the	2931
+query: ?format _ are performed/than _
+output: 5
+that are performed by	8776
+services are performed by	7518
+functions are performed by	7216
+operations are performed on	7075
+that are performed in	6567
+query: * public _
+output: 5
+public health	6105097
+public and	5908510
+public photos	4492373
+all public photos	3980601
+see all public photos	3808405
+query: after refilling
+output: 1
+after refilling	2132
+query: to shoot the man
+output: 1
+to shoot the man	1048
+query: net _ is ?_ to
+output: 4
+net effect is to	7602
+net result is to	1317
+net income is expected to	1263
+net what is needed to	1025
+query: for/for comparing different
+output: 1
+for comparing different	6033
+query: parties/by _ _
+output: 5
+by this author	6885672
+by means of	4800997
+by the end	4736527
+by clicking on	4599839
+by clicking here	4520240
+query: of such commands
+output: 1
+of such commands	1743
+query: it plans to achieve
+output: 1
+it plans to achieve	1291
+query: being _
+output: 5
+being the	7734242
+being used	5657413
+being able	5050357
+being in	4108179
+being made	2920856
+query: became market
+output: 1
+became market	1072
+query: to prevent and/at/_ eliminate discrimination
+output: 1
+to prevent and eliminate discrimination	2433
+query: _ injection
+output: 5
+the injection	463136
+an injection	226322
+fuel injection	223903
+of injection	167340
+for injection	143466
+query: hewelett packard _ ibm
+output: 1
+hewelett packard georgia ibm	1545
+query: emphasis on user
+output: 1
+emphasis on user	3357
+query: * not ?* a significant/up
+output: 5
+not have a significant	136534
+not a significant	107554
+will not have a significant	62124
+is not a significant	56852
+was not a significant	22684
+query: made by the site
+output: 1
+made by the site	2164
+query: _ levels of _
+output: 5
+all levels of the	232805
+all levels of government	195961
+the levels of the	87637
+highest levels of the	46465
+different levels of the	45476
+query: _ ?way in which certain
+output: 4
+way in which certain	2844
+the way in which certain	2270
+manner in which certain	2154
+ways in which certain	1745
+query: agency ?for protecting
+output: 1
+agency for protecting	4899
+query: purpose _ to discuss
+output: 2
+purpose is to discuss	3626
+purpose was to discuss	2087
+query: recommend that you print *
+output: 3
+recommend that you print	8722
+recommend that you print out	2736
+recommend that you print this	1947
+query: ?discount _ _
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: the use ?_ immunosuppressive
+output: 1
+the use of immunosuppressive	1483
+query: _ the requirements/without contained _
+output: 5
+with the requirements contained in	5137
+to the requirements contained in	4190
+of the requirements contained in	3122
+meet the requirements contained in	1441
+that the requirements contained in	1130
+query: money order within
+output: 1
+money order within	8974
+query: doctors told them
+output: 1
+doctors told them	1594
+query: this diamond in
+output: 1
+this diamond in	1615
+query: save filename
+output: 1
+save filename	1852
+query: can damage ?the nervous
+output: 1
+can damage the nervous	1130
+query: national contractors
+output: 1
+national contractors	1989
+query: * ink jet/after
+output: 5
+ink jet	432501
+and ink jet	30374
+laser and ink jet	19149
+an ink jet	11735
+cartridges ink jet	11686
+query: properties ?distinct from
+output: 2
+properties from	619633
+properties distinct from	1337
+query: in ?_ singular number *
+output: 2
+in the singular number	5571
+in the singular number include	2291
+query: quilting memory ?quilts/to _
+output: 2
+quilting memory quilts	1082
+quilting memory quilts and	1081
+query: face/down sooner or _
+output: 2
+down sooner or later	1589
+face sooner or later	1129
+query: big hard gay cock
+output: 1
+big hard gay cock	6505
+query: alarm/without/in probability
+output: 2
+in probability	85700
+alarm probability	3755
+query: problems with online pharmacy practices
+output: 1
+problems with online pharmacy practices	9967
+query: ?items from any
+output: 2
+from any	10125893
+items from any	6783
+query: ?_ the emission
+output: 5
+the emission	689468
+of the emission	106622
+with the emission	39212
+in the emission	37000
+to the emission	32880
+query: officers/without who want to
+output: 1
+officers who want to	3692
+query: _ _ being
+output: 5
+the time being	1178120
+that is being	1041343
+is not being	918145
+is currently being	885602
+it is being	831805
+query: not ?incorporated in this
+output: 2
+not in this	246553
+not incorporated in this	2334
+query: windows sounds
+output: 1
+windows sounds	1307
+query: would never ask for
+output: 1
+would never ask for	2240
+query: ?stay with you
+output: 2
+with you	19691763
+stay with you	138955
+query: the biggest jobs
+output: 1
+the biggest jobs	1843
+query: called by the system
+output: 1
+called by the system	2650
+query: unique _
+output: 5
+unique and	2550098
+unique to	1780550
+unique in	1058856
+unique opportunity	703195
+unique visitors	653924
+query: of * that the/*
+output: 5
+of that	35242145
+of the fact that	2001960
+of the things that	999717
+of things that	810145
+of all that	784105
+query: with its registered
+output: 1
+with its registered	7936
+query: be/between employed _ the
+output: 5
+be employed in the	78606
+be employed by the	53184
+be employed for the	14924
+be employed at the	10887
+be employed on the	8484
+query: ?funds disbursed under the
+output: 2
+disbursed under the	4917
+funds disbursed under the	2270
+query: one/on and/to _ _
+output: 5
+on to the next	505079
+one and the same	454593
+one and a half	427371
+on and off the	409722
+on to say that	349122
+query: our science education ?product website
+output: 1
+our science education product website	5666
+query: years _ ?_ _
+output: 5
+years of age	6965426
+years of experience	3016018
+years and over	2307008
+years in the	2105306
+years after the	1797782
+query: nelly pic
+output: 1
+nelly pic	3071
+query: security ?_ to/by/in
+output: 5
+security in	1223275
+security to	641521
+security by	274109
+security interest in	171045
+security measures in	103901
+query: you in _
+output: 5
+you in the	2983582
+you in your	1154489
+you in advance	416021
+you in this	375361
+you in my	285368
+query: did ?load/from/before
+output: 3
+did before	366403
+did from	80678
+did load	3503
+query: * kid
+output: 5
+the kid	971853
+was a kid	530989
+as a kid	398596
+this kid	257368
+for kid	253302
+query: _ _
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: of password to
+output: 1
+of password to	1264
+query: simplifies the system
+output: 1
+simplifies the system	1421
+query: and/down visit the ?web site
+output: 2
+and visit the site	6275
+and visit the web site	1717
+query: wore buttons
+output: 1
+wore buttons	1251
+query: _ gotten _
+output: 5
+have gotten the	124077
+have gotten to	77606
+not gotten around	64190
+not gotten to	55236
+have gotten it	50250
+query: _ _ accuracy
+output: 5
+warrant the accuracy	2158803
+responsibility for accuracy	1822667
+assure the accuracy	1724253
+improve the accuracy	1229362
+for the accuracy	1151425
+query: courses ?_ _
+output: 5
+courses in	3555499
+courses and	2407572
+courses are	1854931
+courses for	1368712
+courses at	845023
+query: female relatives
+output: 1
+female relatives	22545
+query: are tallied and
+output: 1
+are tallied and	3591
+query: _ scrutiny
+output: 5
+under scrutiny	213178
+public scrutiny	178927
+the scrutiny	162473
+of scrutiny	117698
+to scrutiny	86857
+query: _ _ if you
+output: 5
+code above if you	1136374
+me know if you	750333
+your doctor if you	620529
+to see if you	619750
+contact us if you	619573
+query: and the ?current market
+output: 2
+and the market	336155
+and the current market	6013
+query: _ to create
+output: 5
+how to create	1304012
+used to create	1281308
+is to create	1179693
+you to create	1012904
+need to create	816622
+query: _ notes to *
+output: 5
+the notes to	92516
+accompanying notes to	79474
+the notes to the	48318
+and notes to	27306
+accompanying notes to consolidated	23571
+query: is/under _ _ which describes
+output: 1
+is a term which describes	1046
+query: was grieving for
+output: 1
+was grieving for	1330
+query: modernist style
+output: 1
+modernist style	4498
+query: trek through the
+output: 1
+trek through the	29218
+query: that _ today
+output: 5
+that in today	41073
+that exist today	40835
+that exists today	31157
+that works today	23619
+that even today	23284
+query: broadcasting _ dedicated
+output: 1
+broadcasting platform dedicated	1963
+query: bring/with in _ of
+output: 5
+with in terms of	19222
+with in excess of	8738
+bring in some of	4959
+with in respect of	3825
+bring in lots of	3419
+query: test and promote
+output: 1
+test and promote	1356
+query: with him and her
+output: 1
+with him and her	1781
+query: potential undergraduate
+output: 1
+potential undergraduate	4793
+query: by _
+output: 5
+by the	417106045
+by this	23539535
+by an	20424772
+by subject	14128501
+by clicking	12487006
+query: and former chair of/before
+output: 1
+and former chair of	10564
+query: something else on
+output: 1
+something else on	28348
+query: to kick the * out
+output: 2
+to kick the shit out	3063
+to kick the crap out	2757
+query: ?let your/after/before/near _
+output: 5
+your own	63495788
+after the	53121208
+before the	40278995
+your item	19869202
+your password	19120204
+query: protein precursors
+output: 1
+protein precursors	2815
+query: with a chain of
+output: 1
+with a chain of	9283
+query: sexy/under movies _ hot
+output: 1
+sexy movies free hot	2700
+query: _ ?to the/before student
+output: 5
+of the student	1636181
+to the student	950633
+that the student	594067
+by the student	567153
+for the student	561203
+query: to contact/under you for _
+output: 5
+to contact you for more	4233
+to contact you for further	2893
+to contact you for initial	2047
+to contact you for the	1873
+to contact you for additional	1730
+query: her/than election and
+output: 1
+her election and	1503
+query: _ ?blend with/of
+output: 5
+one of	173898508
+out of	139365988
+number of	139151213
+part of	124514243
+use of	90098162
+query: apologies for multiple
+output: 1
+apologies for multiple	2247
+query: _ ?lived in fear is
+output: 2
+lived in fear is	2426
+life lived in fear is	2408
+query: ?_ _
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: ?affordable _ for
+output: 5
+looking for	57652293
+here for	49957591
+and for	49879898
+responsible for	49209726
+available for	41303396
+query: daily use _ the
+output: 2
+daily use of the	10817
+daily use in the	1722
+query: ?portal and web ?directory
+output: 4
+and web	3998746
+and web directory	29016
+portal and web	2945
+portal and web directory	1273
+query: the real/by ?heroes ?are/_/after
+output: 5
+the real	16278618
+the real world	1888803
+the real estate	1221257
+the real thing	833445
+the by	636406
+query: equivalent rate _
+output: 2
+equivalent rate of	4805
+equivalent rate for	2216
+query: _ potential for/for/from steel
+output: 1
+growth potential for steel	1980
+query: machine will need
+output: 1
+machine will need	2147
+query: not _ ?myself
+output: 5
+not be	150433242
+not have	84871413
+not to	47185625
+not know	45711052
+not the	41108924
+query: toughened and
+output: 1
+toughened and	2374
+query: make payment by the
+output: 1
+make payment by the	2183
+query: _ of any government
+output: 5
+independent of any government	2339
+order of any government	1832
+part of any government	1416
+opinions of any government	1350
+opinion of any government	1099
+query: of total/by freedom/near
+output: 1
+of total freedom	3073
+query: of mobile email
+output: 1
+of mobile email	2402
+query: channel matrix
+output: 1
+channel matrix	8817
+query: un ?_
+output: 5
+un amico	184129
+un compte	129500
+un site	117152
+un amigo	112496
+un peu	112426
+query: the law to prohibit all
+output: 1
+the law to prohibit all	8042
+query: paper and _
+output: 5
+paper and the	109322
+paper and pencil	83015
+paper and electronic	62519
+paper and paperboard	52949
+paper and custom	46395
+query: is allowed even
+output: 1
+is allowed even	1820
+query: significantly hinder
+output: 1
+significantly hinder	3111
+query: had taken place by
+output: 1
+had taken place by	1439
+query: _ _ _
+output: 5
+one of the	99754198
+as well as	97009753
+part of the	58041977
+be able to	51942714
+the end of	45438156
+query: gina ?_
+output: 5
+gina wilde	54513
+gina wild	50835
+gina lynn	21437
+gina ryder	11474
+gina at	8238
+query: _ amusingly
+output: 5
+is amusingly	5984
+an amusingly	5948
+and amusingly	5395
+the amusingly	3897
+most amusingly	1630
+query: request _ ?the county
+output: 3
+request of the county	2111
+request the county	1276
+request to the county	1104
+query: loyal ?customers
+output: 1
+loyal customers	145255
+query: ?this * all
+output: 5
+of all	81062706
+for all	66740071
+to all	40289272
+and all	39617303
+at all	38680317
+query: try to look out
+output: 1
+try to look out	1397
+query: lipitor grapefruit interaction lipitor
+output: 1
+lipitor grapefruit interaction lipitor	1462
+query: cities be sure ?to check
+output: 1
+cities be sure to check	29027
+query: outstanding/*/_ grip
+output: 5
+the grip	347532
+to grip	131756
+get a grip	130679
+his grip	114259
+in the grip	107056
+query: in/since _ direct selling
+output: 1
+in the direct selling	1241
+query: _ _ this _
+output: 5
+for listing this item	8604369
+search inside this book	7536775
+seller of this item	6876362
+center on this product	6634058
+more by this author	5761397
+query: between studies in
+output: 1
+between studies in	1197
+query: boy _ best
+output: 1
+boy the best	1319
+query: _ stabbed her
+output: 4
+and stabbed her	5376
+he stabbed her	2264
+had stabbed her	1213
+who stabbed her	1057
+query: also the _ ?reality
+output: 5
+also the following	6613066
+also the first	322219
+also the most	259739
+also the author	174676
+also the only	160950
+query: irradiated silicon
+output: 1
+irradiated silicon	1985
+query: is ?_ recreated ?right _
+output: 5
+is recreated in	6113
+is recreated with	1850
+is expertly recreated right	1470
+is expertly recreated right down	1470
+is recreated here	1261
+query: regional ?project for
+output: 2
+regional for	3247
+regional project for	1651
+query: picked _ up
+output: 5
+picked it up	354414
+picked me up	106538
+picked him up	84279
+picked her up	73062
+picked them up	54746
+query: will _ quote the
+output: 2
+will always quote the	3363
+will not quote the	1408
+query: election before the
+output: 1
+election before the	5720
+query: * _ _
+output: 5
+of the	2766332391
+in the	1628795324
+to the	1139248999
+on the	800328815
+for the	692874802
+query: must ?be/under judged
+output: 1
+must be judged	47751
+query: ?credit flush
+output: 1
+credit flush	1085
+query: ?and instead focused on the/_/to
+output: 2
+instead focused on the	3315
+and instead focused on the	1075
+query: seen/from ?_ in
+output: 5
+seen in	8213158
+from in	699541
+from anywhere in	524905
+from those in	349393
+from stores in	345690
+query: had _
+output: 5
+had been	47463128
+had to	37065360
+had the	18881969
+had not	15660975
+had no	11576327
+query: of what their children
+output: 1
+of what their children	3456
+query: and polish your
+output: 1
+and polish your	8442
+query: of/with the * ?is
+output: 5
+of the	2766332391
+with the	461331348
+of the most	24342887
+of the world	20524845
+of the following	16947462
+query: ?citizen in/* its
+output: 5
+of its	54566779
+and its	53323331
+in its	31730938
+to its	22911530
+for its	17866948
+query: _ the rooftop _
+output: 5
+on the rooftop of	9508
+from the rooftop of	3074
+on the rooftop terrace	2220
+on the rooftop and	1822
+to the rooftop of	1537
+query: is another one to
+output: 1
+is another one to	2836
+query: _ with/under/than them
+output: 5
+deal with them	388216
+work with them	354256
+associated with them	259111
+do with them	249364
+up with them	245363
+query: young adult ?rats
+output: 2
+young adult	549779
+young adult rats	2481
+query: was ?just more *
+output: 5
+was more	4966668
+was more than	1069928
+was more of	249843
+was more like	183860
+was more important	136713
+query: and that ?_ does not
+output: 5
+and that does not	127327
+and that it does not	41782
+and that he does not	18632
+and that she does not	6579
+and that just does not	3437
+query: ?with * instruments ?of
+output: 5
+musical instruments	898804
+the instruments	695664
+instruments of	615376
+of instruments	538290
+financial instruments	489961
+query: of/near general aviation
+output: 1
+of general aviation	17289
+query: product photographs which
+output: 1
+product photographs which	1125
+query: studies came to
+output: 1
+studies came to	1547
+query: seminars _
+output: 5
+seminars and	977237
+seminars on	293776
+seminars for	224157
+seminars in	213290
+seminars are	165965
+query: town at ?the
+output: 2
+town at	167403
+town at the	63857
+query: expenses and have
+output: 1
+expenses and have	1971
+query: structural value
+output: 1
+structural value	1527
+query: harassed and even
+output: 1
+harassed and even	1026
+query: leading accredited online ?universities
+output: 2
+leading accredited online	6113
+leading accredited online universities	4585
+query: ?with those/down members of _
+output: 5
+those members of the	66414
+those members of staff	3424
+those members of our	3392
+those members of society	1743
+those members of your	1630
+query: _ riser
+output: 5
+the riser	48981
+early riser	20919
+and riser	14776
+errorbar riser	5426
+of riser	5250
+query: individual/near _ on the _
+output: 5
+individual problems on the basis	4353
+individual forum on the board	2486
+individual items on the list	2117
+individual dates on the calendars	1148
+individual opinion on the problem	1114
+query: _ the weapon
+output: 5
+of the weapon	98328
+with the weapon	20141
+is the weapon	19914
+that the weapon	18937
+to the weapon	17736
+query: as he spoke and/by
+output: 1
+as he spoke and	3235
+query: biotechnology ?industry has
+output: 2
+biotechnology has	19429
+biotechnology industry has	3279
+query: slow up/since and
+output: 1
+slow up and	1478
+query: the _ _ secure
+output: 5
+the need to secure	16636
+the safe and secure	10464
+the ability to secure	9652
+the opportunity to secure	7780
+the scalable and secure	7231
