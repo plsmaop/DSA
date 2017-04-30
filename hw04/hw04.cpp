@@ -102,5 +102,6 @@ int main(){
                 break;
         }
     }
+    //delete tree;
     return 0;
 }
