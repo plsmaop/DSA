@@ -7,7 +7,7 @@
 #include <utility>
 #define MAX_LINE 42000000
 using namespace std;
-
+ 
 class Node {
     public:
         Node() { mContent = ' '; mMarker = false; }                 //constructor 預設為空字串，marker沒有上色代表不是任何字的終結點
@@ -23,7 +23,7 @@ class Node {
             }
             return NULL;
         }
-        void appendChild(Node* child) {mChildren.push_back(child);} //往下存字 
+        void appendChild(Node* child) {mChildren.push_back(child);} //往下存字
         vector<Node*> children() {return mChildren; }               //查詢往下存的vector
         void addRow(int _row){mRow.push_back(_row);}                //存入行數
         vector<int> row(){return mRow;}                             //查詢儲存的行數
@@ -36,14 +36,14 @@ class Node {
 class Trie {
     public:
         Trie(){root = new Node();}                                  //constructor，root是空的
-        ~Trie(){delete root;}                                       //destructor 
+        ~Trie(){delete root;}                                       //destructor
         void addWord(std::string s, int _row){                      //存入一個詞，同時存入出現在第igram第幾行
             Node* current = root;                                   //從root開始往下
             if ( s.length() == 0){
                 current->setWordMarker();                           //存入an empty word
                 return;
             }
-            for(int i = 0; i < s.length(); i++){        
+            for(int i = 0; i < s.length(); i++){       
                 Node* child = current->findChild(s[i]);             //看下面有沒有這個字，有的話回傳
                 if ( child != NULL ) current = child;               //如果下面有，節點往下
                  else{                                              //如果沒有
@@ -58,6 +58,19 @@ class Trie {
                 }
             }
         }
+        bool searchWord(std::string s){                                  //搜尋一個詞
+            Node* current = root;                                   //從root開始往下
+            while(current != NULL){                                
+                for ( int i = 0; i < s.length(); i++ ){
+                    Node* tmp = current->findChild(s[i]);           //看下面有沒有這個字，有的話回傳
+                    if ( tmp == NULL )  return false;               //沒有的話就失敗
+                    current = tmp;                                  //繼續往下
+                }
+                if ( current->wordMarker() ) return true;           //如果最後停留的節點有標記，就成功
+                else return false;
+            }
+            return false;
+        }
         vector<int> getRow(std::string s){
             Node* current = root;                                   //從root開始
             for(int i = 0; i < s.length(); i++){
@@ -69,20 +82,19 @@ class Trie {
     private:
         Node* root;
 };
-Trie *trie = new Trie();
 inline bool isSep(char c){ return c == ' ' || c == '\t' || c == 0;}         //是否是空格或結尾
 bool eq(const char* query, const char* gram){                               //比較兩個字串是否相等
     if(*query == '_') return true;
     while(true){
-        if( isSep(*query) && isSep(*gram) ) return true; 
+        if( isSep(*query) && isSep(*gram) ) return true;
         if( *query != *gram) return false;
         query++; gram++;
     }
 }
 set<string> expansion_quest_mark(const string& s){                          //展開有問號的字
     set<string> rtn_set;
-    size_t loc = s.find('?');                                               //先搜問號的位置
-    if( loc == string::npos ){ 
+    size_t loc = s.find('?');                                             //先搜問號的位置
+    if( loc == string::npos ){
         rtn_set.insert(s);                                                  //沒有的話就回傳原本的字串
         return rtn_set;
     }
@@ -91,17 +103,17 @@ set<string> expansion_quest_mark(const string& s){                          //�
     size_t nextSep = s.find(' ', loc);                                      //看看這個字是否為最後一個字
     if(nextSep == string::npos)                                             //如果後面沒有空格了
         s2 = s.substr(0,loc);                                               //就直接拿掉最後一個字
-    else      
+    else     
         s2 = s.substr(0,loc) + s.substr( s.find(' ',loc)+1 ,string::npos);  //不然就單純拿掉這個字，接上後面的字串
     rtn_set = expansion_quest_mark (s1);                                    //遞迴之後第一個結果存入set裡
     set<string> rtn_set2 ;
-    rtn_set2=expansion_quest_mark(s2);                                      //遞迴之後第二個結果存入第二個set
-    for(auto i : rtn_set2)                 
+    rtn_set2=expansion_quest_mark(s2);                        //遞迴之後第二個結果存入第二個set
+    for(auto i : rtn_set2)                
         rtn_set.insert(i);                                                  //合併兩個set
     return rtn_set;                                                         //遞迴
 }
 set<string> expansion_slash_mark(const string& s){                          //將分隔號展開
-    set<string> rtn_set;                        
+    set<string> rtn_set;                       
     size_t loc = s.find('/');                                               //先找到分隔號的位置
     if(loc == string::npos){                                                //如果不存在
         rtn_set.insert(s);                                                  //就直接回傳原本的字串
@@ -115,11 +127,11 @@ set<string> expansion_slash_mark(const string& s){                          //�
     string s3;                                                              //後面的字串
     if(word_end == s.length())                                              //如果剛好停在終結點，代表該字為最後一個字
         s3 = "";                                                            //後面的字串為空字串
-    else 
+    else
         s3 = s.substr(word_end, string::npos);                              //不然就接上後面的字串，且word_end是空格
     string s2;                                                              //中間的字串，要求的字
     int last = word_start ;                                                 //從第一個字開始求
-    for(int i = word_start ;  ; i++){                                       
+    for(int i = word_start ;  ; i++){                                      
         if(s[i] == '/' || i == word_end) {                                  //遇到分隔號或走到最後
             s2 = string(s.c_str()+last, i-last);                            //就把該字的開始到分隔號或終結點之前加起來
             for(auto e: expansion_slash_mark(s1+s2+s3))                     //把前後串起來，開始遞回
@@ -128,7 +140,7 @@ set<string> expansion_slash_mark(const string& s){                          //�
         }
         if(i == word_end)                                                   //如果走到最後了
             break;                                                          //離開迴圈
-    }               
+    }              
     return rtn_set;                                                         //回傳set
 }
 set<string> expansion_star_mark(const string& s){
@@ -152,12 +164,12 @@ set<string> expansion_star_mark(const string& s){
             p_current++;
             continue;
         }
-        if( isSep( *(c-1) )) p_current++;                      
+        if( isSep( *(c-1) )) p_current++;                     
     }
-    string s2 = s1;                                                         //擴展潛在字串
+    string s2 = s1;                                                              //擴展潛在字串
     vector< set<string> >setn;                                              //潛在擴展字串的set
     while(p_current < 5){
-        if(s2=="") s2 = "_";                                                 //如果是空字串
+        if(s2=="") s2 = "_";                                               //如果是空字串
         else if(nextSep == string::npos) s2 = s2.substr(0, string::npos) + " _";
         else s2 = s2.substr(0,loc) + "_ " + s2.substr(loc, string::npos);
         setn.push_back( expansion_star_mark(s2));
@@ -175,7 +187,7 @@ set<string> Expansion(const string& s){
     set<string> s2;
     for(auto i : s1)
         for(auto j : expansion_slash_mark(i)) s2.insert(j);
-    set<string> s3; 
+    set<string> s3;
     for(auto i : s2)
         for(auto j : expansion_star_mark(i)) s3.insert(j);
     return s3;
@@ -201,8 +213,8 @@ vector<int> int_merge(vector<int> s1, vector<int>s2){
             ans.push_back(*itor1);
             itor1++; itor2++;
           }
-        else if (*itor1 < *itor2) itor1++;                                  //第二個大於第一個，則第一個往下指
-        else itor2++;                                                       //第一個大於第二個，則第二個往下指
+        else if (*itor1 < *itor2) itor1++;                                          //第二個大於第一個，則第一個往下指
+        else itor2++;                                       //第一個大於第二個，則第二個往下指
     }
     return ans;
 }
@@ -234,12 +246,12 @@ vector<int> merge(const vector<string>& str, Trie* trie){
 struct ansCmp {                                                             //自定義pair的排序，key由小到大，value由大到小
     bool operator()(const pair<long long, string>& p1, const pair<long long, string>& p2) {
         if(p1.first != p2.first) return p1.first < p2.first;
-        return p1.second > p2.second; 
+        return p1.second > p2.second;
     }
 };
 string all[MAX_LINE];
 vector< vector<int> > dash;
-void Query(const string& s){
+void Query(string all[MAX_LINE], const string& s, Trie* trie){
     set<string>query_set = Expansion(s);
     set< pair<long long, string>, ansCmp > ans;                             //key為頻率，value為字串
     for(string query: query_set){                                           //query為set裡的字串的iterator，會不斷往後
@@ -250,13 +262,13 @@ void Query(const string& s){
                 query_words[p_query++] = c;
                 continue;
             }
-            if(isSep( *(c-1) )) query_words[p_query++] = c;                 //每個字第一個字母的指標
-        }   
-        vector<string> str = extract(query_words,p_query);                  //將字分開
+            if(isSep( *(c-1) )) query_words[p_query++] = c;                //每個字第一個字母的指標
+        }  
+        vector<string> str = extract(query_words,p_query);                                //將字分開
         vector<int> index;
         if(p_query >= 2){
             if(str.size()==0) index = dash[p_query-2];
-            else index = merge(str, trie);                                  //merge posting之後產生index
+            else index = merge(str, trie);                                      //merge posting之後產生index
         }
         for(int row: index){                                                //row為index的指標，會不斷往後
             string gram = all[row];                                         //取出第row存的字串
@@ -272,11 +284,11 @@ void Query(const string& s){
             }
             if(p_gram - 1 != p_query)                                       //確認字數相符
                 continue;
-            bool isEQ = true;                                               
+            bool isEQ = true;                                              
             for(int i = 0; i < p_query; i++){                               //確認每個字是否相同
                 if(!eq( query_words[i],gram_words[i] )){
                     isEQ = false;                                           //不相同的話就跳出迴圈
-                    break;   
+                    break;  
                 }
             }
             // this piece of code may run many times
@@ -294,15 +306,15 @@ void Query(const string& s){
         cout << i->second ;                                                 //fget會多加換行
     }
 }
-int main(int argc,char *argv[]){                                                    
-    int count = 0;  
-                                                           //第幾行
-    /*for(int i = 2; i <= 5; i++){                                            //第i個gram
+int main(int argc,char *argv[]){
+    Trie *trie = new Trie();                                                    
+    int count = 0;                                                          //第幾行
+    for(int i = 2; i <= 5; i++){                                            //第i個gram
         char path[100];                                                     //檔案路徑
         sprintf(path, "%s%dgm.small.txt", argv[1], i);                      //寫入路徑
         FILE* filein = fopen(path, "r");                                    //打開檔案
         char tmps[100];
-        
+        vector<int> tmp_arr;
         while( fgets(tmps, 100, filein) != NULL){
             all[count]=tmps;                                                //全部存入
             char* p = tmps ;                                                //紀錄要從字串中取出的字的位置
@@ -311,38 +323,9 @@ int main(int argc,char *argv[]){
                 while(!isSep(*end)) end++;                                  //只要不是終結點或空格就繼續記錄
                 trie->addWord(string(start, end-start), count);             //紀錄出現在第i個gram的第count行
                 p = end+1;                                                  //從下一個字繼續存
-            }*/
-    for(int i = 2; i <= 5; i++){
-        FILE* filein;
-        char* buffer;
-        long file_size;
-        size_t result;
-        char path[100];
-        sprintf(path, "%s%dgm.small.txt", argv[1], i);
-        filein = fopen(path, "r");
-        fseek(filein, 0 , SEEK_END);
-        file_size = ftell(filein);
-        rewind(filein);
-        buffer = (char*) malloc (sizeof(char)*file_size);
-        result = fread(buffer,1,file_size,filein);
-        char* p = buffer;
-        string tmps;
-        while(*p){
-            char *start = p, *end = p;
-            while( *end != '\n' ) end++;
-            tmps = string(start,end-start);
-            all[count] = tmps;
-            char* w_p = start;
-            for(int j = 0; j < i; j++){
-                char *w_start = w_p, *w_end = w_p; 
-                while( *w_end != ' ') w_end++;
-                trie->addWord(string(w_start, w_end-w_start), count);
-                w_p = w_end+1;
             }
-            p = end+1;
             string s = tmps;
-            vector<int> tmp_arr; 
-            size_t loc = s.find('\t'); 
+            size_t loc = s.find('\t');
             string tmp2 = s.substr(loc+1,string::npos);
             const char* c = tmp2.c_str();
             long long freq = atoll(c);
@@ -363,16 +346,15 @@ int main(int argc,char *argv[]){
                     break;
             }
             count++;                                                        //換下一行
-        dash.push_back(tmp_arr);
         }
+        dash.push_back(tmp_arr);
+        fclose(filein);
     }
     string tmps;
     vector<string> input;
     int i = 0;
     while( getline(cin,tmps) ) input.push_back(tmps);
-    vector<int> output = trie->getRow("fuck");
-    for(auto i : output) cout << i << "\n";
-    //for(auto i : input) Query(i);
+    for(auto i : input) Query(all ,i ,trie);
     //delete trie;*/
     return 0;
 }
