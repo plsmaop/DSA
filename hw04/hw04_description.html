@@ -1,0 +1,158 @@
+<script>
+function editfile() {
+        var keycode = event.keyCode;
+        if (keycode==120) {
+                document.location="editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw04/index.asp"
+        }
+}
+</script>
+<script>document.onkeydown=editfile;</script>
+
+<script src="/jang/js/lib/utility4webClient.js"></script>
+
+<!-- For using MathJax?? -->
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<html>
+<head>
+	<title>DSA Homework 4</title>
+	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+	<style>
+		td {font-family: "標楷體", "helvetica,arial", "Tahoma"}
+		A:link {text-decoration: none}
+		A:hover {text-decoration: underline}
+	</style>
+</head>
+
+<body background="/jang/graphics/background/yellow.gif">
+<!font face="標楷體">
+
+<center>
+<h2><a href="/jang/courses/dsa">DSA</a> Homework 4</h2>
+<h3><a href="/jang">Roger Jang</a></h3>
+</center>
+
+<hr>
+<strong>Due date: <font color=red>20170508 23:59:59</font></strong>
+<hr>
+
+<h3 align=center><font color=green>News headline generator (Ranking via heaps)</font></h3>
+
+<!--
+<center><font color=red>Details not yet finalized!</font></center>
+-->
+
+Outlines
+<ul>
+<li><a href=index.asp#problemDefinition>Problem definition</a>
+<li><a href=index.asp#suggestedApproach>Suggested approach</a>
+<li><a href=index.asp#inputOutputFormat>Input/output formats</a>
+<li><a href=index.asp#requirement>Requirements</a>
+<li><a href=index.asp#dataset>Datasets</a>
+</ul>
+
+<a name=problemDefinition></a>
+<h4><img src="/jang/graphics/dots/redball.gif">Problem definition</h4>
+<p>In this assignment, you need to implement a news management system that can store a lot of news items, and each item is associated with a score of popularity. In particular, your system should support the following operations:
+<ul>
+<li>Insert: Insert a news item, and all the existing news items have to depreciate by deducting a given number from their original scores.
+<li>Update: For a given set of news ID, we can increase their scores by a given number.
+<li>Query: output the highest-score news ID, and its score.
+</ul>
+
+<a name=suggestedApproach></a>
+<h4></a><img src="/jang/graphics/dots/redball.gif">Suggested approach</h4>
+<p>Vector-based heaps.
+
+<a name=inputOutputFormat></a>
+<h4><img src="/jang/graphics/dots/redball.gif">Input/output formats</h4>
+<ul>
+<li>Input format
+	<ul>
+	<li>The first line contains two integer, $n$ (the number of operations) and $k$ (the number to be deducted for the existing news items when a new item is added).
+	<li>For each of the following $n$ lines, the first integer is $m_i$ which indicates the mode of operation to be executed.
+		<ul>
+		<li>If $m_i=1$ (insert), it will be followed by $d_i$ (news ID) and $s_i$ (news score), with $0 \leq d_i \leq 10^6$, and $0 \leq s_i \leq 10^6$.
+		<li>If $m_i=2$ (update), it will be followed by $v_i$ (the number to be added to scores of the following news ID), $c_i$ (number of news items to be updated), and list of $c_i$ news IDs for update. Note that $0 \leq v_i \leq 10^6$ and $1 \leq c_i \leq 5$. 
+		<li>If $m_i=3$ (query), output the news ID with the highest score. (If there is a tie, output the news ID that was inserted most recently.)
+		</ul>
+	</ul>
+	Here is an example input file:
+	<xmp>20 80025
+1 15 356051
+1 2 392134
+1 0 407336
+1 7 517303
+1 3 631251
+2 337391 5 15 15 0 0 0
+3
+2 471959 2 3 2
+2 15587 5 15 2 7 0 15
+1 17 139590
+2 858380 3 3 17 7
+3
+1 19 309860
+2 102611 4 7 7 17 19
+3
+1 14 704404
+1 10 213329
+2 558447 1 0
+1 18 609195
+3
+</xmp>
+<li>Output format
+	<ul>
+	<li>For each query, output a line, as shown in the example output file.
+	</ul>
+	Here is an example output file:
+	<xmp>id: 0, value: 1259459
+id: 3, value: 1881565
+id: 3, value: 1801540
+id: 3, value: 1561465
+</xmp>
+</ul>
+
+<a name=requirement></a>
+<h4><img src="/jang/graphics/dots/redball.gif">Requirements</h4>
+<ul>
+<li>Limits:
+	<ul>
+	<li>Max time: 2 sec (for n=$10^6$).
+	<li>Max memory: 256 MB.
+	<li>Max submissions: 20 times each week.
+	</ul>
+<li>Program usage: Your program should take standard input and generate standard output:
+<center>
+	myProgram < input.txt > output.txt
+</center>
+</ul>
+
+
+<a name=dataset></a>
+<h4><img src="/jang/graphics/dots/redball.gif">Datasets</h4>
+<ol type=a>
+<li>Open test sets
+	<ul>
+<!--
+	<li>n=20: <a href="testCase/input00020.txt">input00020.txt</a>, <a href="testCase/output00020.txt">output00020.txt</a>
+-->
+	<li><a href="testCase/open01.txt">open01.txt</a>, <a href="testCase/open01_out.txt">open01_out.txt</a>
+	<li><a href="testCase/open02.txt">open02.txt</a>, <a href="testCase/open02_out.txt">open02_out.txt</a>
+	<li><a href="testCase/open03.txt">open03.txt</a>, <a href="testCase/open03_out.txt">open03_out.txt</a>
+	<li><a href="testCase/open04.txt">open04.txt</a>, <a href="testCase/open04_out.txt">open04_out.txt</a>
+	</ul>
+</ol>
+
+</ol>
+
+<hr>
+
+<script language="JavaScript">
+document.write("Last updated on " + document.lastModified + ".")
+</script>
+
+<a href="/jang/sandbox/asp/lib/editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw04/index.asp"><img align=right border=0 src="/jang/graphics/invisible.gif"></a>
+</font>
+</body>
+</html>
