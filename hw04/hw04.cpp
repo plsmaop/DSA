@@ -52,7 +52,7 @@ void MaxHeap::upHeap(int iter, int id, long long value, int new_id  ){
         if (iter==1) {
             pos[id] = iter;
                 break;
-            }
+        }
         int parent_pos = iter/2;
         int parent_id = tree[iterator[parent_pos]].first;
         long long parent_value = tree[iterator[parent_pos]].second;
@@ -60,7 +60,7 @@ void MaxHeap::upHeap(int iter, int id, long long value, int new_id  ){
             swapNode(parent_pos,iter);
             pos[parent_id] = iter;
             iter = parent_pos;
-            }
+        }
         else{
             pos[id] = iter; 
             break;
