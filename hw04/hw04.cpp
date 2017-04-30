@@ -37,7 +37,7 @@ class MaxHeap{
     private:
         vector< pair<int, long long> > tree;
         unordered_map<int,int> pos;
-        vector<int> iterator;;
+        vector<int> iterator;
 };
 void MaxHeap::insert(int id, long long value){
     pair<int, long long> node(id,value);
