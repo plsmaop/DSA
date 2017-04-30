@@ -14,16 +14,12 @@ class MaxHeap{
             iterator.push_back(-1);
         }
         ~MaxHeap();
-        bool empty(){return tree.size()==1;}
-        int size(){ return tree.size();}
         void insert(int id, long long value);
+        void upHeap(int iter, int id, long long value, int new_id = 1 );
         void swapNode(int parent,int kid){
             int tmp = iterator[kid];
             iterator[kid] = iterator[parent];
             iterator[parent] = tmp;
-        }
-        void print(){
-            for(int i = 1; i < iterator.size();i++) cout << tree[iterator[i]].first << " ";
         }
         void update(long long add, int id){
             tree[iterator[pos[id]]].second+=add;
@@ -31,26 +27,7 @@ class MaxHeap{
             long long value = tree[iterator[pos[id]]].second;
             upHeap(iter,id,value,0);
         }
-        void upHeap(int iter, int id, long long value, int new_id = 1 ){
-            while(true){
-                if (iter==1) {
-                    pos[id] = iter;
-                    break;
-                }
-                int parent_pos = iter/2;
-                int parent_id = tree[iterator[parent_pos]].first;
-                long long parent_value = tree[iterator[parent_pos]].second;
-                if(parent_value < value || (parent_value == value && new_id == 1)){
-                    swapNode(parent_pos,iter);
-                    pos[parent_id] = iter;
-                    iter = parent_pos;
-                }
-                else{
-                    pos[id] = iter; 
-                    break;
-                }
-            }
-        }
+
         void printRoot(long long deduct){
             int root = iterator[1];
             int id = tree[root].first;
@@ -62,7 +39,6 @@ class MaxHeap{
         unordered_map<int,int> pos;
         vector<int> iterator;;
 };
-
 void MaxHeap::insert(int id, long long value){
     pair<int, long long> node(id,value);
     tree.push_back(node);
@@ -71,7 +47,26 @@ void MaxHeap::insert(int id, long long value){
     int iter = iterator.size()-1;
     upHeap(iter,id,value);
 }
-
+void MaxHeap::upHeap(int iter, int id, long long value, int new_id  ){
+    while(true){
+        if (iter==1) {
+            pos[id] = iter;
+                break;
+            }
+        int parent_pos = iter/2;
+        int parent_id = tree[iterator[parent_pos]].first;
+        long long parent_value = tree[iterator[parent_pos]].second;
+        if(parent_value < value || (parent_value == value && new_id == 1)){
+            swapNode(parent_pos,iter);
+            pos[parent_id] = iter;
+            iter = parent_pos;
+            }
+        else{
+            pos[id] = iter; 
+            break;
+        }
+    }
+}
 int main(){
     ios::sync_with_stdio(false);
     int action_number;
