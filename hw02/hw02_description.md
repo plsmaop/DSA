@@ -1,31 +1,4 @@
-<script>
-function editfile() {
-        var keycode = event.keyCode;
-        if (keycode==120) {
-                document.location="editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw02/index.asp"
-        }
-}
-</script>
-<script>document.onkeydown=editfile;</script>
-
-<script src="/jang/js/lib/utility4webClient.js"></script>
-
-<!-- For using MathJax?? -->
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-<html>
-<head>
-	<title>DSA Homework 2</title>
-	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
-	<style>
-		td {font-family: "¼Ð·¢Åé", "helvetica,arial", "Tahoma"}
-		A:link {text-decoration: none}
-		A:hover {text-decoration: underline}
-	</style>
-</head>
-
-<body background="/jang/graphics/background/yellow.gif">
+<body>
 <!font face="¼Ð·¢Åé">
 
 <center>
