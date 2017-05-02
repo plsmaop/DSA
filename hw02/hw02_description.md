@@ -113,7 +113,7 @@ For query expansion, you need to follow the rules shown next (which may not be e
 Note that it will be easier to write a recursive function for each of the above expansions. 
 
 <a name=inputOutputFormat></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Input/output formats</h4>
+<h4>Input/output formats</h4>
 <p>An typical example of input file is as follows, where each line is a query:
 <xmp>
 regarding our site to
@@ -221,11 +221,7 @@ Each output entry and its frequency are separated by a tab.
 
 <hr>
 
-<script language="JavaScript">
-document.write("Last updated on " + document.lastModified + ".")
-</script>
 
-<a href="/jang/sandbox/asp/lib/editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw02/index.asp"><img align=right border=0 src="/jang/graphics/invisible.gif"></a>
 </font>
 </body>
 </html>
