@@ -2,8 +2,8 @@
 <!font face="¼Ð·¢Åé">
 
 <center>
-<h2><a href="/jang/courses/dsa">DSA</a> Homework 2</h2>
-<h3><a href="/jang">Roger Jang</a></h3>
+<h2>DSA Homework 2</h2>
+<h3>Roger Jang</h3>
 </center>
 
 <hr>
@@ -26,7 +26,7 @@ Outlines
 </ul>
 
 <a name=problemDefinition></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Problem definition</h4>
+<h4>Problem definition</h4>
 
 <p>Google's <a target=_blank href="http://googleresearch.blogspot.tw/2006/08/all-our-n-gram-are-belong-to-you.html">Web 1T</a> dataset is a big collection of n-grams (with n=2, 3, 4, and 5) of English that can be used for various applications, including machine translation, speech recognition, English usage correction, etc. In this assignment, we need to implement an efficient information retrieval method for querying a slim version of the Web 1T dataset.
 
@@ -47,7 +47,7 @@ For simplicity, we assume each query can only contain a single type of these spe
 To test these special characters, please try <a target=_blank href="linggle.com">Linggle</a>.
 
 <a name=suggestedApproach></a>
-<h4></a><img src="/jang/graphics/dots/redball.gif">Suggested approach</h4>
+<h4>Suggested approach</h4>
 The basic approach is based on inverted index. In other words, for a give word, we need to be able to find which n-gram it appears. More info can be found in the first three sections of <a href="http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html">Boolean retrieval</a>:
 <ul>
 <li><a href="http://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html">An example information retrieval problem</a>
@@ -181,7 +181,7 @@ storing large amounts of data	2578
 Each output entry and its frequency are separated by a tab.
 
 <a name=requirementSuggestion></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Requirements</h4>
+<h4>Requirements</h4>
 <ul>
 <li>Limits:
 	<ul>	
@@ -191,12 +191,12 @@ Each output entry and its frequency are separated by a tab.
 	</ul>
 <li>Program usage: Your program should take an input argument to indicate the directory which holds the n-gram files. The default file names are shown in the download links listed below. And the input file (which holds the queries) can be redirect to the program. An example follows. 
 <center>
-	myProgram /tmp2/dsa2017_hw02/ < input00.txt
+	myProgram /tmp2/dsa2017_hw02/ <input00.txt> outptut00.txt
 </center>
 </ul>
 
 <a name=dataset></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Datasets</h4>
+<h4>Datasets</h4>
 <ol type=a>
 <li>The original Google Web 1T dataset is too big to process for machines with limited memory. Hence we shall use a subset for this project, as shown next. These files are already available under /tmp2/dsa2017_hw02/ of linux1 to linux13.
 	<ul>
