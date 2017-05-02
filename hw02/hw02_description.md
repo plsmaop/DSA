@@ -19,14 +19,14 @@ function editfile() {
 	<title>DSA Homework 2</title>
 	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
 	<style>
-		td {font-family: "¼Ğ·¢Åé", "helvetica,arial", "Tahoma"}
+		td {font-family: "Â¼ÃÂ·Â¢Ã…Ã©", "helvetica,arial", "Tahoma"}
 		A:link {text-decoration: none}
 		A:hover {text-decoration: underline}
 	</style>
 </head>
 
 <body background="/jang/graphics/background/yellow.gif">
-<!font face="¼Ğ·¢Åé">
+<!font face="Â¼ÃÂ·Â¢Ã…Ã©">
 
 <center>
 <h2><a href="/jang/courses/dsa">DSA</a> Homework 2</h2>
