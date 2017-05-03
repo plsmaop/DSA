@@ -106,8 +106,8 @@ and _ states
 storing large _ of/for/with data
 
 
-<p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:
-
+<p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:</p>
+<p>
 query: regarding our site to
 output: 1
 regarding our site to	1103
@@ -193,13 +193,8 @@ Each output entry and its frequency are separated by a tab.</p>
 	<ul>
 	<li><a href="testCase/input1000-hidden.txt">input1000-hidden.txt</a>, <a href="testCase/output1000-hidden.txt">output1000-hidden.txt</a>
 	</ul>
-</ol>
-
-</ol>
-
-<hr>
 
 
-</font>
+
 </body>
 </html>
