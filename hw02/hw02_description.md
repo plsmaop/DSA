@@ -1,29 +1,7 @@
 <body>
-<!font face="¼Ð·¢Åé">
-
-<center>
-<h2>DSA Homework 2</h2>
-<h3>Roger Jang</h3>
-</center>
-
-<hr>
-<strong>Due date: <font color=red>20170403 23:59:59</font></strong>
-<hr>
 
 <h3 align=center><font color=green>N-gram Search (Information Retrieval)</font></h3>
 
-<!--
-<center><font color=red>Details not yet finalized!</font></center>
--->
-
-Outlines
-<ul>
-<li><a href=index.asp#problemDefinition>Problem definition</a>
-<li><a href=index.asp#suggestedApproach>Suggested approach</a>
-<li><a href=index.asp#inputOutputFormat>Input/output formats</a>
-<li><a href=index.asp#requirementSuggestion>Requirements and suggestions</a>
-<li><a href=index.asp#dataset>Datasets</a>
-</ul>
 
 <a name=problemDefinition></a>
 <h4>Problem definition</h4>
@@ -127,9 +105,9 @@ free/on cartoon sex _
 and _ states
 storing large _ of/for/with data
 
-</xmp>
+
 <p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:
-<xmp>
+
 query: regarding our site to
 output: 1
 regarding our site to	1103
@@ -177,7 +155,7 @@ query: storing large _ of/for/with data
 output: 1
 storing large amounts of data	2578
 
-</xmp>
+
 Each output entry and its frequency are separated by a tab.
 
 <a name=requirementSuggestion></a>
@@ -190,10 +168,10 @@ Each output entry and its frequency are separated by a tab.
 	<li>Max submissions: 20 times each week, starting at "20170320 23:59:59" and ending at "20170403 23:59:59".
 	</ul>
 <li>Program usage: Your program should take an input argument to indicate the directory which holds the n-gram files. The default file names are shown in the download links listed below. And the input file (which holds the queries) can be redirect to the program. An example follows. 
-<center>
+<p><center>
 	myProgram /tmp2/dsa2017_hw02/ <input00.txt> outptut00.txt
-</center>
-</ul>
+	</center></p>
+
 
 <a name=dataset></a>
 <h4>Datasets</h4>
