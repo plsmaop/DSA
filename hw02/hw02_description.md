@@ -93,7 +93,7 @@ Note that it will be easier to write a recursive function for each of the above 
 <a name=inputOutputFormat></a>
 <h4>Input/output formats</h4>
 <p>An typical example of input file is as follows, where each line is a query:
-<xmp>
+
 regarding our site to
 occupation does
 resolution with all
@@ -103,7 +103,7 @@ understand that you _ _
 alprazolam international
 free/on cartoon sex _
 and _ states
-storing large _ of/for/with data
+storing large _ of/for/with data</p>
 
 
 <p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:</p>
