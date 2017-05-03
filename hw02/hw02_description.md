@@ -107,7 +107,7 @@ storing large _ of/for/with data</p>
 
 
 <p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:</p>
-<p>
+<span>
 query: regarding our site to
 output: 1
 regarding our site to	1103
@@ -156,7 +156,7 @@ output: 1
 storing large amounts of data	2578
 
 
-Each output entry and its frequency are separated by a tab.</p>
+Each output entry and its frequency are separated by a tab.</span>
 
 <a name=requirementSuggestion></a>
 <h4>Requirements</h4>
