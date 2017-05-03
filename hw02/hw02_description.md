@@ -168,9 +168,9 @@ Each output entry and its frequency are separated by a tab.</p>
 	<li>Max submissions: 20 times each week, starting at "20170320 23:59:59" and ending at "20170403 23:59:59".
 	</ul>
 <li>Program usage: Your program should take an input argument to indicate the directory which holds the n-gram files. The default file names are shown in the download links listed below. And the input file (which holds the queries) can be redirect to the program. An example follows. 
-<center>
-	myProgram /tmp2/dsa2017_hw02/ <input00.txt> outptut00.txt
-	</center></p>
+<p>
+	myProgram /tmp2/dsa2017_hw02/ < input00.txt > outptut00.txt
+	</p>
 
 
 <a name=dataset></a>
