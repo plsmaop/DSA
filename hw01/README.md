@@ -70,20 +70,20 @@ References:
 	<li>Print one integer for each query.
 	</ul>
 <li>Example
-	<p>Input:
+<p>Input:</p>
 
-5 3
-10 30 50 20 40
-1 5
-1 2
-4 5
+5 3<br>
+10 30 50 20 40<br>
+1 5<br>
+1 2<br>
+4 5<br>
 
 
-	<p>Output:
+<p>Output:</p>
 
-50
-30
-40
+50<br>
+30<br>
+40<br>
 
 </ul>
 
@@ -111,9 +111,9 @@ References:
 <li>As usual...
 	<ol type=a>
 	<li>Your program should take the input from the standard input and send the output to the standard output. That is, you should be able to redirect the input/output files like this:
-	<center>
+	<p>
 	myProgram < input.txt > output.txt
-	</center>
+	</p>
 	<li><font color=red>You need to write the program from scratch. You cannot use any open-source or readily available solvers.</font>
 	</ol>
 </ul>
