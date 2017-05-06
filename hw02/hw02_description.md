@@ -94,67 +94,67 @@ Note that it will be easier to write a recursive function for each of the above 
 <h4>Input/output formats</h4>
 <p>An typical example of input file is as follows, where each line is a query:
 
-regarding our site to
-occupation does
-resolution with all
-eliminated _ _ the
-resulted from negligent
-understand that you _ _
-alprazolam international
-free/on cartoon sex _
-and _ states
+regarding our site to<br>
+occupation does<br>
+resolution with all<br>
+eliminated _ _ the<br>
+resulted from negligent<br>
+understand that you _ _<br>
+alprazolam international<br>
+free/on cartoon sex _<br>
+and _ states<br>
 storing large _ of/for/with data</p>
 
 
 <p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:</p>
 <span>
-query: regarding our site to
-output: 1
-regarding our site to	1103
-query: occupation does
-output: 1
-occupation does	4704
-query: resolution with all
-output: 1
-resolution with all	6938
-query: eliminated _ _ the
-output: 5
-eliminated most of the	6744
-eliminated many of the	4848
-eliminated some of the	4467
-eliminated all of the	4131
-eliminated much of the	3933
-query: resulted from negligent
-output: 1
-resulted from negligent	3434
-query: understand that you _ _
-output: 5
-understand that you do not	11830
-understand that you can not	9507
-understand that you are not	6594
-understand that you are using	5366
-understand that you want to	5175
-query: alprazolam international
-output: 1
-alprazolam international	1414
-query: free/on cartoon sex _
-output: 5
-free cartoon sex video	10298
-free cartoon sex free	7323
-free cartoon sex pics	4177
-free cartoon sex movie	3575
-free cartoon sex film	2412
-query: and _ states
-output: 5
-and other states	139463
-and the states	105148
-and surrounding states	25879
-and all states	17070
-and some states	16149
-query: storing large _ of/for/with data
-output: 1
-storing large amounts of data	2578
-
+query: regarding our site to<br>
+output: 1<br>
+regarding our site to	1103<br>
+query: occupation does<br>
+output: 1<br>
+occupation does	4704<br>
+query: resolution with all<br>
+output: 1<br>
+resolution with all	6938<br>
+query: eliminated _ _ the<br>
+output: 5<br>
+eliminated most of the	6744<br>
+eliminated many of the	4848<br>
+eliminated some of the	4467<br>
+eliminated all of the	4131<br>
+eliminated much of the	3933<br>
+query: resulted from negligent<br>
+output: 1<br>
+resulted from negligent	3434<br>
+query: understand that you _ _<br>
+output: 5<br>
+understand that you do not	11830<br>
+understand that you can not	9507<br>
+understand that you are not	6594<br>
+understand that you are using	5366<br>
+understand that you want to	5175<br>
+query: alprazolam international<br>
+output: 1<br>
+alprazolam international	1414<br>
+query: free/on cartoon sex _<br>
+output: 5<br>
+free cartoon sex video	10298<br>
+free cartoon sex free	7323<br>
+free cartoon sex pics	4177<br>
+free cartoon sex movie	3575<br>
+free cartoon sex film	2412<br>
+query: and _ states<br>
+output: 5<br>
+and other states	139463<br>
+and the states	105148<br>
+and surrounding states	25879<br>
+and all states	17070<br>
+and some states	16149<br>
+query: storing large _ of/for/with data<br>
+output: 1<br>
+storing large amounts of data	2578<br>
+<br><br>
 
 Each output entry and its frequency are separated by a tab.</span>
 
@@ -178,21 +178,16 @@ Each output entry and its frequency are separated by a tab.</span>
 <ol type=a>
 <li>The original Google Web 1T dataset is too big to process for machines with limited memory. Hence we shall use a subset for this project, as shown next. These files are already available under /tmp2/dsa2017_hw02/ of linux1 to linux13.
 	<ul>
-	<li><a href="../../../project/2016/2gm.small.txt">2-grams (bigrams)</a>
-	<li><a href="../../../project/2016/3gm.small.txt">3-grams (trigrams)</a>
-	<li><a href="../../../project/2016/4gm.small.txt">4-grams (fourgrams)</a>
-	<li><a href="../../../project/2016/5gm.small.txt">5-grams (fivegrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/2gm.small.txt">2-grams (bigrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/3gm.small.txt">3-grams (trigrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/4gm.small.txt">4-grams (fourgrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/5gm.small.txt">5-grams (fivegrams)</a>
 	</ul>
 <li>Open test sets
 	<ul>
-	<li><a href="testCase/input0010.txt">input0010.txt</a>, <a href="testCase/output0010.txt">output0010.txt</a>
-	<li><a href="testCase/input0100.txt">input0100.txt</a>, <a href="testCase/output0100.txt">output0100.txt</a>
-	<li><a href="testCase/input1000.txt">input1000.txt</a>, <a href="testCase/output1000.txt">output1000.txt</a>
+	<li><a href="https://raw.githubusercontent.com/plsmaop/DSA/master/hw02/input1000.txt">input1000.txt</a>, <a href="https://raw.githubusercontent.com/plsmaop/DSA/master/hw02/output1000.txt">output1000.txt</a>
 	</ul>
-<li>Hidden test sets
-	<ul>
-	<li><a href="testCase/input1000-hidden.txt">input1000-hidden.txt</a>, <a href="testCase/output1000-hidden.txt">output1000-hidden.txt</a>
-	</ul>
+
 
 
 
