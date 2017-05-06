@@ -34,14 +34,14 @@ Outlines
 In this homework, your mission is to write a program to identify an action sequence (consisting of the four actions of east, south, west, north) that can lead the game from its initial map to its desirable final map of at least one element of 2048.
 
 <a name=suggestedApproach></a>
-<h4></a><img src="/jang/graphics/dots/redball.gif">Suggested approach</h4>
+<h4>Suggested approach</h4>
 
 <p>As instructed in the class, you can use stack-based DFS (depth-first search) to find the action sequence. For details, please refer to the <a href="/jang/courses/dsa/slide/2048.ppt">slides</a> and <a href="http://u.camdemy.com/media/12073">recording</a> of our coverage of the homework.
 
 <p>On the other hand, if you prefer, you can also use recursive backtracking (which uses an implicit stack) to achieve the same goal. (Try google.)
 
 <a name=inputOutputFormat></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Input/output formats</h4>
+<h4>Input/output formats</h4>
 <p>In an input file, the first line is N, the number of cases of 2048 game for your program to run. And each 4 following lines is an initial map for 2048 game. In other words, there should be 4*N+1 lines in an input file. For example, the following input file has N=10:<br>
 
 10<br>
@@ -122,79 +122,10 @@ An example output file of the above input file will be provided by TA soon.
 <li>You can simply use DFS (exhaustive search) to finish this homework. If you are interested in strategies to speed up the search, here are <a href="http://stackoverflow.com/questions/22342854/what-is-the-optimal-algorithm-for-the-game-2048">some clues</a>.
 <li>Note that each map of the game has 16 elements of values ranging from $2^1=2$ to $2^{11}=2048$. As a result, we can use a 64-bit unsigned integer (the data type of "unsigned long long") to represent a map, and each element is characterized by a 4-bit unsigned integer (with values ranging from 0 to 15) to represent its exponent.
 <li>How to convert a map to a number in "unsigned long long" (and vice versa):
-$$
-\left[
-\begin{matrix}
-2 & 256 & 32 & 2\\
-0 & 4  & 64 & 0\\
-0 & 2  & 0 & 2048\\
-8 & 512  & 0 & 0\\
-\end{matrix}
-\right]
 
-=
-\left[
-\begin{matrix}
-2^1 & 2^8 & 2^5 & 2^1\\
-2^{-\infty} & 2^1  & 2^6 & x\\
-2^{-\infty} & 2^1  & 2^{-\infty} & 2^{11}\\
-2^3 & 2^9  & 2^{-\infty} & 2^{-\infty}\\
-\end{matrix}
-\right]
+<a href="https://cdn-images-1.medium.com/max/1600/1*9UhGjN81QmcSvhEu17PvNA.jpeg"></a>
+So the last number can be represented as an integer in "unsigned long long" format (64 bits). Note that you can shift A[m,n]A[m,n] to the left by 4(4m+n)4(4m+n) and do a summation to get the integer in "unsigned long long" format.
 
-\Longrightarrow
-
-\left[
-\begin{matrix}
-1 & 8 & 5 & 1\\
--\infty & 1 & 6 & -\infty\\
--\infty & 1 & -\infty & 11\\
-3 & 9 & -\infty & -\infty\\
-\end{matrix}
-\right]
-
-\Longrightarrow
-
-A=
-\left[
-\begin{matrix}
-1 & 8 & 5 & 1\\
-0 & 1 & 6 & 0\\
-0 & 1 & 0 & 11\\
-3 & 9 & 0 & 0\\
-\end{matrix}
-\right]
-$$
-$$
-=
-\left[
-\begin{matrix}
-0001_2 & 1000_2 & 0101_2 & 0001_2\\
-0000_2 & 0001_2 & 0110_2 & 0000_2\\
-0000_2 & 0001_2 & 0000_2 & 1011_2\\
-0011_2 & 1001_2 & 0000_2 & 0000_2\\
-\end{matrix}
-\right]
-
-\Longrightarrow
-\underbrace{0000}_{A[3,3]} \:
-\underbrace{0000}_{A[3,2]} \:
-\underbrace{1001}_{A[3,1]} \:
-\underbrace{0011}_{A[3,0]} \:
-\underbrace{1011}_{A[2,3]} \:
-\underbrace{0000}_{A[2,2]} \:
-\underbrace{0001}_{A[2,1]} \:
-\underbrace{0000}_{A[2,0]} \:
-\underbrace{0000}_{A[1,3]} \:
-\underbrace{0110}_{A[1,2]} \:
-\underbrace{0001}_{A[1,1]} \:
-\underbrace{0000}_{A[1,0]} \:
-\underbrace{0001}_{A[0,3]} \:
-\underbrace{0101}_{A[0,2]} \:
-\underbrace{1000}_{A[0,1]} \:
-\underbrace{0001}_{A[0,0]}
-$$
-So the last number can be represented as an integer in "unsigned long long" format (64 bits). Note that you can shift $A[m,n]$ to the left by $4(4m+n)$ and do a summation to get the integer in "unsigned long long" format.
 <li>TA will provide a function nextMap() to generate the next map based on the current map and the given action. To use the function, please add the following function prototype in your main program:
 <center>
 unsigned long long nextMap(unsigned long long map, int action);
@@ -215,7 +146,7 @@ g++ -std=c++11 -O2 myProgram.cpp lib.a
 <ol type=a>
 <li>Open test sets
 	<ul>
-	<li>N=10000: <a href="testCase/input10000.txt">input10000.txt</a>, <a href="testCase/output10000.txt">output10000.txt</a>
+	<li>N=10000: <a href="https://github.com/plsmaop/DSA/raw/master/hw03/input10000.txt">input10000.txt</a>, <a href="https://github.com/plsmaop/DSA/raw/master/hw03/output10000.txt">output10000.txt</a>
 	</ul>
 </ol>
 
