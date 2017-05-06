@@ -1,47 +1,17 @@
-<script>
-function editfile() {
-        var keycode = event.keyCode;
-        if (keycode==120) {
-                document.location="editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw03/index.asp"
-        }
-}
-</script>
-<script>document.onkeydown=editfile;</script>
 
-<script src="/jang/js/lib/utility4webClient.js"></script>
 
-<!-- For using MathJax?? -->
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<body>
 
-<html>
-<head>
-	<title>DSA Homework 3</title>
-	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
-	<style>
-		td {font-family: "標楷體", "helvetica,arial", "Tahoma"}
-		A:link {text-decoration: none}
-		A:hover {text-decoration: underline}
-	</style>
-</head>
-
-<body background="/jang/graphics/background/yellow.gif">
-<!font face="標楷體">
 
 <center>
-<h2><a href="/jang/courses/dsa">DSA</a> Homework 3</h2>
-<h3><a href="/jang">Roger Jang</a></h3>
+<h2>DSA Homework 3</h2>
 </center>
 
-<hr>
-<strong>Due date: <font color=red>20170417 23:59:59</font></strong>
-<hr>
+
 
 <h3 align=center><font color=green>2048 (DFS using a stack)</font></h3>
 
-<!--
-<center><font color=red>Details not yet finalized!</font></center>
--->
+
 
 Outlines
 <ul>
@@ -53,7 +23,7 @@ Outlines
 </ul>
 
 <a name=problemDefinition></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Problem definition</h4>
+<h4>Problem definition</h4>
 
 <p>2048 has been a popular game since its debut in March, 2014. <p>Before you start, you should get familiar with the game. Here is some references:
 <ul>
@@ -72,76 +42,76 @@ In this homework, your mission is to write a program to identify an action seque
 
 <a name=inputOutputFormat></a>
 <h4><img src="/jang/graphics/dots/redball.gif">Input/output formats</h4>
-<p>In an input file, the first line is N, the number of cases of 2048 game for your program to run. And each 4 following lines is an initial map for 2048 game. In other words, there should be 4*N+1 lines in an input file. For example, the following input file has N=10:
-<xmp>
-10
-0 4 2 2
-2 0 0 2
-0 0 2 0
-4 0 2 0
-0 2 0 2
-2 0 4 2
-0 0 0 16
-16 0 0 2
-0 2 32 4
-8 4 16 0
-0 0 0 0
-2 0 0 0
-2 0 0 0
-0 0 2 0
-0 4 2 0
-0 2 16 2
-0 0 0 64
-2 4 0 0
-0 0 8 0
-16 0 0 16
-2 0 64 4
-0 0 2 2
-2 0 2 0
-2 4 8 2
-0 0 0 4
-2 0 0 0
-2 0 2 0
-0 2 0 2
-16 2 0 2
-4 0 0 2
-4 0 0 0
-4 0 2 8
-0 2 32 8
-0 0 2 0
-2 2 0 4
-4 0 0 0
-1024 4 1024 2
-4 8 4 8
-64 32 64 32
-4 2 4 2
+<p>In an input file, the first line is N, the number of cases of 2048 game for your program to run. And each 4 following lines is an initial map for 2048 game. In other words, there should be 4*N+1 lines in an input file. For example, the following input file has N=10:<br>
 
-</xmp>
+10<br>
+0 4 2 2<br>
+2 0 0 2<br>
+0 0 2 0<br>
+4 0 2 0<br>
+0 2 0 2<br>
+2 0 4 2<br>
+0 0 0 16<br>
+16 0 0 2<br>
+0 2 32 4<br>
+8 4 16 0<br>
+0 0 0 0<br>
+2 0 0 0<br>
+2 0 0 0<br>
+0 0 2 0<br>
+0 4 2 0<br>
+0 2 16 2<br>
+0 0 0 64<br>
+2 4 0 0<br>
+0 0 8 0<br>
+16 0 0 16<br>
+2 0 64 4<br>
+0 0 2 2<br>
+2 0 2 0<br>
+2 4 8 2<br>
+0 0 0 4<br>
+2 0 0 0<br>
+2 0 2 0<br>
+0 2 0 2<br>
+16 2 0 2<br>
+4 0 0 2<br>
+4 0 0 0<br>
+4 0 2 8<br>
+0 2 32 8<br>
+0 0 2 0<br>
+2 2 0 4<br>
+4 0 0 0<br>
+1024 4 1024 2<br>
+4 8 4 8<br>
+64 32 64 32<br>
+4 2 4 2<br>
+
+
 <p>For each case, you need to identify the action sequence to generate the final map. If you can find an action sequence to reach the final map (with at least one element of 2048), you should print the action sequence as well as the final map. For instance, a typical output for the first case of the above input file is shown next. (Note that the action and the final map may not be unique.)
-<xmp>
-Action:
-0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 2 0 3 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 1 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 3 0 0 0 0 0 0 0 1 1 1 2 1 0 0 1 0 1 0 1 0 0 0 0 1 2 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 3 0 0 0 1 0 1 1 1 0 1 2 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 2 0 1 0 1 2 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 1 1 0 0 3 0 0 0 1 0 1 0 0 2 0 3 0 1 0 1 0 2 1 0 0 0 0 0 0 1 1 1 2 1 2 0 3 0 2 1 2 0 0 0 0 0 0 0 0 0 0 2 1 0 1 1 1 3 0 1 3 1 1 2 0 3 0 1 1 3 0 1 0 1 0 2 1 0 0 0 1 0 1 0 0 0 2 2 3 0 1 0 1 0 0 0 0 0 1 2 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 3 0 1 0 1 3 0 0 0 0 0 0 0 1 2 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 3 0 0 0 0 0 0 0 1 0 1 1 3 0 0 0 1 0 1 1 3 2 0 1 0 1 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 1 1 1 0 1 0 1 0 0 1 0 1 0 0 1 3 0 1 0 1 1 0 2 1 0 0 0 1 0 0 0 0 3 0 0 1 2 1 0 1 0 1 0 0 0 0 0 0 0 2 1 2 1 0 0 0 2 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 1 2 1 2 0 3 0 2 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 1 0 1 1 1 0 0 1 0 1 0 2 1 0 1 0 0 3 0 1 0 0 3 0 1 0 0 0 1 3 1 0 1 0 1 0 0 1 0 1 1 0 2 1 0 1 0 0 3 0 1 0 1 1 0 0 1 1 3 2 0 1 0 0 0 0 0 1 0 1 1 0 1 3 0 0 0 1 3 2 1 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 1 2 1 0 0 0 1 0 1 1 2 0 0 0 1 0 0 0 0 0 0 0 1 0 1 3 0 1 1 1 0 0 0 1 2 3 0 3 0 0 2 1 0 3 0 1 2 0 1 1 1 1 1 0 1 3 0 1 0 2 1 0 1 3 1 1 2 3 0 1 0 1 0 2 1 0 1 0 0 3 0 3 3 3 3 2 3 1 2 1 3 0 1 0 1 0 1 0 1 1 2 1 0
-Final:
-4 32 2 8
-256 16 128 2
-4 2 8 2048
-16 128 16 4
-</xmp>
-On the other hand, if the desired final map cannot be found (such as the last case of the above input file), then you should print -1 for the action and the final map:
-<xmp>
-Action:
--1
-Final:
--1 -1 -1 -1
--1 -1 -1 -1
--1 -1 -1 -1
--1 -1 -1 -1
-</xmp>
 
+Action:<br>
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 2 0 3 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 1 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 3 0 0 0 0 0 0 0 1 1 1 2 1 0 0 1 0 1 0 1 0 0 0 0 1 2 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 3 0 0 0 1 0 1 1 1 0 1 2 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 2 0 1 0 1 2 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 1 1 0 0 3 0 0 0 1 0 1 0 0 2 0 3 0 1 0 1 0 2 1 0 0 0 0 0 0 1 1 1 2 1 2 0 3 0 2 1 2 0 0 0 0 0 0 0 0 0 0 2 1 0 1 1 1 3 0 1 3 1 1 2 0 3 0 1 1 3 0 1 0 1 0 2 1 0 0 0 1 0 1 0 0 0 2 2 3 0 1 0 1 0 0 0 0 0 1 2 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 3 0 1 0 1 3 0 0 0 0 0 0 0 1 2 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 3 0 0 0 0 0 0 0 1 0 1 1 3 0 0 0 1 0 1 1 3 2 0 1 0 1 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 1 1 1 0 1 0 1 0 0 1 0 1 0 0 1 3 0 1 0 1 1 0 2 1 0 0 0 1 0 0 0 0 3 0 0 1 2 1 0 1 0 1 0 0 0 0 0 0 0 2 1 2 1 0 0 0 2 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 1 2 1 2 0 3 0 2 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 1 0 1 1 1 0 0 1 0 1 0 2 1 0 1 0 0 3 0 1 0 0 3 0 1 0 0 0 1 3 1 0 1 0 1 0 0 1 0 1 1 0 2 1 0 1 0 0 3 0 1 0 1 1 0 0 1 1 3 2 0 1 0 0 0 0 0 1 0 1 1 0 1 3 0 0 0 1 3 2 1 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 1 2 1 0 0 0 1 0 1 1 2 0 0 0 1 0 0 0 0 0 0 0 1 0 1 3 0 1 1 1 0 0 0 1 2 3 0 3 0 0 2 1 0 3 0 1 2 0 1 1 1 1 1 0 1 3 0 1 0 2 1 0 1 3 1 1 2 3 0 1 0 1 0 2 1 0 1 0 0 3 0 3 3 3 3 2 3 1 2 1 3 0 1 0 1 0 1 0 1 1 2 1 0
+<br>Final:<br>
+4 32 2 8<br>
+256 16 128 2<br>
+4 2 8 2048<br>
+16 128 16 4<br>
+
+On the other hand, if the desired final map cannot be found (such as the last case of the above input file), then you should print -1 for the action and the final map:
+<br>
+Action:<br>
+-1<br>
+Final:<br>
+-1 -1 -1 -1<br>
+-1 -1 -1 -1<br>
+-1 -1 -1 -1<br>
+-1 -1 -1 -1<br>
+
+<br>
 An example output file of the above input file will be provided by TA soon.
 
 <a name=requirement></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Requirements</h4>
+<h4>Requirements</h4>
 <ul>
 <li>Limits:
 	<ul>
@@ -229,37 +199,29 @@ So the last number can be represented as an integer in "unsigned long long" form
 <center>
 unsigned long long nextMap(unsigned long long map, int action);
 </center>
-where <i>map</i> is the current map, and <i>action</i>=0, 1, 2, 3 corresponding to the action of east, south, west, north, respectively. The function is available as a static library <a href="lib/lib.a">lib.a</a>. It is quite easy to use the library by the following command:
-<center>
+where <i>map</i> is the current map, and <i>action</i>=0, 1, 2, 3 corresponding to the action of east, south, west, north, respectively. The function is available as a static library <a href="https://github.com/plsmaop/DSA/raw/master/hw03/lib.a">lib.a</a>. It is quite easy to use the library by the following command:
+<p>
 g++ -std=c++11 -O2 myProgram.cpp lib.a
-</center>
+</p>
 <li>Program usage: Your program should take standard input and generate standard output:
-<center>
+<p>
 	myProgram < input.txt > output.txt
-</center>
+	</p>
 </ul>
 
 
 <a name=dataset></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Datasets</h4>
+<h4>Datasets</h4>
 <ol type=a>
 <li>Open test sets
 	<ul>
-	<li>N=1: <a href="testCase/input00001.txt">input00001.txt</a>, <a href="testCase/output00001.txt">output00001.txt</a>
-	<li>N=10: <a href="testCase/input00010.txt">input00010.txt</a>, <a href="testCase/output00010.txt">output00010.txt</a>
 	<li>N=10000: <a href="testCase/input10000.txt">input10000.txt</a>, <a href="testCase/output10000.txt">output10000.txt</a>
 	</ul>
 </ol>
 
 </ol>
 
-<hr>
 
-<script language="JavaScript">
-document.write("Last updated on " + document.lastModified + ".")
-</script>
-
-<a href="/jang/sandbox/asp/lib/editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw03/index.asp"><img align=right border=0 src="/jang/graphics/invisible.gif"></a>
 </font>
 </body>
 </html>
