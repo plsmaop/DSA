@@ -63,9 +63,8 @@ References:
 	<li>The first line of the input contains two integers, $n$ (length of the array) and $m$ (number of queries), with $1\leq n, m \leq 100000$.
 	<li>The second line contains $n$ integers, $a_1, a_2, ..., a_{n}$, with $0 \leq a_i \leq 10^9$.
 	<li>Each of the following $m$ lines contains two integers, $l_i$ and $u_i$, which are the lower and upper indices for the $i$th query.
+	</ul>
 
-</ul>
-<ul>
 <li>Output format
 	<ul>
 	<li>Print one integer for each query.
@@ -85,8 +84,8 @@ References:
 50<br>
 30<br>
 40<br>
-</ul>
-</ul>
+
+
 </ul>
 
 <h4>Test cases</h4>
