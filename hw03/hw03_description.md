@@ -122,11 +122,11 @@ An example output file of the above input file will be provided by TA soon.
 <li>You can simply use DFS (exhaustive search) to finish this homework. If you are interested in strategies to speed up the search, here are <a href="http://stackoverflow.com/questions/22342854/what-is-the-optimal-algorithm-for-the-game-2048">some clues</a>.
 <li>Note that each map of the game has 16 elements of values ranging from $2^1=2$ to $2^{11}=2048$. As a result, we can use a 64-bit unsigned integer (the data type of "unsigned long long") to represent a map, and each element is characterized by a 4-bit unsigned integer (with values ranging from 0 to 15) to represent its exponent.
 <li>How to convert a map to a number in "unsigned long long" (and vice versa):
+<ul>
+<li><img scr="2048.gif">
 
-<img scr="https://github.com/plsmaop/DSA/raw/master/hw04/1-9UhGjN81QmcSvhEu17PvNA.gif">
-
-So the last number can be represented as an integer in "unsigned long long" format (64 bits). Note that you can shift A[m,n]A[m,n] to the left by 4(4m+n)4(4m+n) and do a summation to get the integer in "unsigned long long" format.
-
+<li>So the last number can be represented as an integer in "unsigned long long" format (64 bits). Note that you can shift A[m,n]A[m,n] to the left by 4(4m+n)4(4m+n) and do a summation to get the integer in "unsigned long long" format.
+</ul>
 <li>TA will provide a function nextMap() to generate the next map based on the current map and the given action. To use the function, please add the following function prototype in your main program:
 <center>
 unsigned long long nextMap(unsigned long long map, int action);
