@@ -123,7 +123,7 @@ An example output file of the above input file will be provided by TA soon.
 <li>Note that each map of the game has 16 elements of values ranging from $2^1=2$ to $2^{11}=2048$. As a result, we can use a 64-bit unsigned integer (the data type of "unsigned long long") to represent a map, and each element is characterized by a 4-bit unsigned integer (with values ranging from 0 to 15) to represent its exponent.
 <li>How to convert a map to a number in "unsigned long long" (and vice versa):
 
-<a img="https://cdn-images-1.medium.com/max/1600/1*9UhGjN81QmcSvhEu17PvNA.jpeg"></a>
+<img scr="https://cdn-images-1.medium.com/max/1600/1*9UhGjN81QmcSvhEu17PvNA.jpeg">
 So the last number can be represented as an integer in "unsigned long long" format (64 bits). Note that you can shift A[m,n]A[m,n] to the left by 4(4m+n)4(4m+n) and do a summation to get the integer in "unsigned long long" format.
 
 <li>TA will provide a function nextMap() to generate the next map based on the current map and the given action. To use the function, please add the following function prototype in your main program:
