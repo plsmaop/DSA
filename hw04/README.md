@@ -85,7 +85,7 @@ id: 3, value: 1561465<br>
 	<li>Max submissions: 20 times each week.
 	</ul>
 <li>Program usage: Your program should take standard input and generate standard output:
-<p>
+	<p>
 	myProgram < input.txt > output.txt
 	</p>
 </ul>
@@ -93,13 +93,13 @@ id: 3, value: 1561465<br>
 
 <a name=dataset></a>
 <h4>Datasets</h4>
-<ol type=a>
+<ol>
 <li>Open test sets
 	<ul>
-
-
-	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03.txt">open03.txt</a>, <a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03_out.txt">open03_out.txt</a>
-	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04.txt">open04.txt</a>, <a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04_out.txt">open04_out.txt</a>
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03.txt">open03.txt</a>
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03_out.txt">open03_out.txt</a>
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04.txt">open04.txt</a>
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04_out.txt">open04_out.txt</a>
 	</ul>
 </ol>
 
