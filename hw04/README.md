@@ -15,7 +15,7 @@
 
 
 <a name=problemDefinition></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Problem definition</h4>
+<h4>Problem definition</h4>
 <p>In this assignment, you need to implement a news management system that can store a lot of news items, and each item is associated with a score of popularity. In particular, your system should support the following operations:
 <ul>
 <li>Insert: Insert a news item, and all the existing news items have to depreciate by deducting a given number from their original scores.
@@ -97,12 +97,11 @@ id: 3, value: 1561465<br>
 <li>Open test sets
 	<ul>
 
-	<li><a href="testCase/open01.txt">open01.txt</a>, <a href="testCase/open01_out.txt">open01_out.txt</a>
-	<li><a href="testCase/open02.txt">open02.txt</a>, <a href="testCase/open02_out.txt">open02_out.txt</a>
-	<li><a href="testCase/open03.txt">open03.txt</a>, <a href="testCase/open03_out.txt">open03_out.txt</a>
-	<li><a href="testCase/open04.txt">open04.txt</a>, <a href="testCase/open04_out.txt">open04_out.txt</a>
+
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03.txt">open03.txt</a>, <a href="https://github.com/plsmaop/DSA/raw/master/hw04/open03_out.txt">open03_out.txt</a>
+	<li><a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04.txt">open04.txt</a>, <a href="https://github.com/plsmaop/DSA/raw/master/hw04/open04_out.txt">open04_out.txt</a>
 	</ul>
 </ol>
 
-</ol>
+
 
