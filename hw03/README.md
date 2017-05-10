@@ -13,15 +13,6 @@
 
 
 
-Outlines
-<ul>
-<li><a href=index.asp#problemDefinition>Problem definition</a>
-<li><a href=index.asp#suggestedApproach>Suggested approach</a>
-<li><a href=index.asp#inputOutputFormat>Input/output formats</a>
-<li><a href=index.asp#requirement>Requirements</a>
-<li><a href=index.asp#dataset>Datasets</a>
-</ul>
-
 <a name=problemDefinition></a>
 <h4>Problem definition</h4>
 
