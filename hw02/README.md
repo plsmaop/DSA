@@ -1,59 +1,10 @@
-<script>
-function editfile() {
-        var keycode = event.keyCode;
-        if (keycode==120) {
-                document.location="editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw02/index.asp"
-        }
-}
-</script>
-<script>document.onkeydown=editfile;</script>
-
-<script src="/jang/js/lib/utility4webClient.js"></script>
-
-<!-- For using MathJax?? -->
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-<html>
-<head>
-	<title>DSA Homework 2</title>
-	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
-	<style>
-		td {font-family: "標楷體", "helvetica,arial", "Tahoma"}
-		A:link {text-decoration: none}
-		A:hover {text-decoration: underline}
-	</style>
-</head>
-
-<body background="/jang/graphics/background/yellow.gif">
-<!font face="標楷體">
-
-<center>
-<h2><a href="/jang/courses/dsa">DSA</a> Homework 2</h2>
-<h3><a href="/jang">Roger Jang</a></h3>
-</center>
-
-<hr>
-<strong>Due date: <font color=red>20170403 23:59:59</font></strong>
-<hr>
+<body>
 
 <h3 align=center><font color=green>N-gram Search (Information Retrieval)</font></h3>
 
-<!--
-<center><font color=red>Details not yet finalized!</font></center>
--->
-
-Outlines
-<ul>
-<li><a href=index.asp#problemDefinition>Problem definition</a>
-<li><a href=index.asp#suggestedApproach>Suggested approach</a>
-<li><a href=index.asp#inputOutputFormat>Input/output formats</a>
-<li><a href=index.asp#requirementSuggestion>Requirements and suggestions</a>
-<li><a href=index.asp#dataset>Datasets</a>
-</ul>
 
 <a name=problemDefinition></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Problem definition</h4>
+<h4>Problem definition</h4>
 
 <p>Google's <a target=_blank href="http://googleresearch.blogspot.tw/2006/08/all-our-n-gram-are-belong-to-you.html">Web 1T</a> dataset is a big collection of n-grams (with n=2, 3, 4, and 5) of English that can be used for various applications, including machine translation, speech recognition, English usage correction, etc. In this assignment, we need to implement an efficient information retrieval method for querying a slim version of the Web 1T dataset.
 
@@ -74,7 +25,7 @@ For simplicity, we assume each query can only contain a single type of these spe
 To test these special characters, please try <a target=_blank href="linggle.com">Linggle</a>.
 
 <a name=suggestedApproach></a>
-<h4></a><img src="/jang/graphics/dots/redball.gif">Suggested approach</h4>
+<h4>Suggested approach</h4>
 The basic approach is based on inverted index. In other words, for a give word, we need to be able to find which n-gram it appears. More info can be found in the first three sections of <a href="http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html">Boolean retrieval</a>:
 <ul>
 <li><a href="http://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html">An example information retrieval problem</a>
@@ -140,75 +91,75 @@ For query expansion, you need to follow the rules shown next (which may not be e
 Note that it will be easier to write a recursive function for each of the above expansions. 
 
 <a name=inputOutputFormat></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Input/output formats</h4>
+<h4>Input/output formats</h4>
 <p>An typical example of input file is as follows, where each line is a query:
-<xmp>
-regarding our site to
-occupation does
-resolution with all
-eliminated _ _ the
-resulted from negligent
-understand that you _ _
-alprazolam international
-free/on cartoon sex _
-and _ states
-storing large _ of/for/with data
 
-</xmp>
-<p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:
-<xmp>
-query: regarding our site to
-output: 1
-regarding our site to	1103
-query: occupation does
-output: 1
-occupation does	4704
-query: resolution with all
-output: 1
-resolution with all	6938
-query: eliminated _ _ the
-output: 5
-eliminated most of the	6744
-eliminated many of the	4848
-eliminated some of the	4467
-eliminated all of the	4131
-eliminated much of the	3933
-query: resulted from negligent
-output: 1
-resulted from negligent	3434
-query: understand that you _ _
-output: 5
-understand that you do not	11830
-understand that you can not	9507
-understand that you are not	6594
-understand that you are using	5366
-understand that you want to	5175
-query: alprazolam international
-output: 1
-alprazolam international	1414
-query: free/on cartoon sex _
-output: 5
-free cartoon sex video	10298
-free cartoon sex free	7323
-free cartoon sex pics	4177
-free cartoon sex movie	3575
-free cartoon sex film	2412
-query: and _ states
-output: 5
-and other states	139463
-and the states	105148
-and surrounding states	25879
-and all states	17070
-and some states	16149
-query: storing large _ of/for/with data
-output: 1
-storing large amounts of data	2578
+regarding our site to<br>
+occupation does<br>
+resolution with all<br>
+eliminated _ _ the<br>
+resulted from negligent<br>
+understand that you _ _<br>
+alprazolam international<br>
+free/on cartoon sex _<br>
+and _ states<br>
+storing large _ of/for/with data</p>
 
-</xmp>
-Each output entry and its frequency are separated by a tab.
+
+<p>For each query, you only need to generate at most top-5 output with ascending order of frequency. If there is tie, list them according to alphabetical order of the n-grams. The output file corresponding to the previous input file is shown next:</p>
+<span>
+query: regarding our site to<br>
+output: 1<br>
+regarding our site to	1103<br>
+query: occupation does<br>
+output: 1<br>
+occupation does	4704<br>
+query: resolution with all<br>
+output: 1<br>
+resolution with all	6938<br>
+query: eliminated _ _ the<br>
+output: 5<br>
+eliminated most of the	6744<br>
+eliminated many of the	4848<br>
+eliminated some of the	4467<br>
+eliminated all of the	4131<br>
+eliminated much of the	3933<br>
+query: resulted from negligent<br>
+output: 1<br>
+resulted from negligent	3434<br>
+query: understand that you _ _<br>
+output: 5<br>
+understand that you do not	11830<br>
+understand that you can not	9507<br>
+understand that you are not	6594<br>
+understand that you are using	5366<br>
+understand that you want to	5175<br>
+query: alprazolam international<br>
+output: 1<br>
+alprazolam international	1414<br>
+query: free/on cartoon sex _<br>
+output: 5<br>
+free cartoon sex video	10298<br>
+free cartoon sex free	7323<br>
+free cartoon sex pics	4177<br>
+free cartoon sex movie	3575<br>
+free cartoon sex film	2412<br>
+query: and _ states<br>
+output: 5<br>
+and other states	139463<br>
+and the states	105148<br>
+and surrounding states	25879<br>
+and all states	17070<br>
+and some states	16149<br>
+query: storing large _ of/for/with data<br>
+output: 1<br>
+storing large amounts of data	2578<br>
+<br><br>
+
+Each output entry and its frequency are separated by a tab.</span>
 
 <a name=requirementSuggestion></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Requirements</h4>
+<h4>Requirements</h4>
 <ul>
 <li>Limits:
 	<ul>	
@@ -217,42 +168,28 @@ Each output entry and its frequency are separated by a tab.
 	<li>Max submissions: 20 times each week, starting at "20170320 23:59:59" and ending at "20170403 23:59:59".
 	</ul>
 <li>Program usage: Your program should take an input argument to indicate the directory which holds the n-gram files. The default file names are shown in the download links listed below. And the input file (which holds the queries) can be redirect to the program. An example follows. 
-<center>
-	myProgram /tmp2/dsa2017_hw02/ < input00.txt
-</center>
-</ul>
+<p>
+	myProgram /tmp2/dsa2017_hw02/ < input00.txt > outptut00.txt
+	</p>
+
 
 <a name=dataset></a>
-<h4><img src="/jang/graphics/dots/redball.gif">Datasets</h4>
+<h4>Datasets</h4>
 <ol type=a>
 <li>The original Google Web 1T dataset is too big to process for machines with limited memory. Hence we shall use a subset for this project, as shown next. These files are already available under /tmp2/dsa2017_hw02/ of linux1 to linux13.
 	<ul>
-	<li><a href="../../../project/2016/2gm.small.txt">2-grams (bigrams)</a>
-	<li><a href="../../../project/2016/3gm.small.txt">3-grams (trigrams)</a>
-	<li><a href="../../../project/2016/4gm.small.txt">4-grams (fourgrams)</a>
-	<li><a href="../../../project/2016/5gm.small.txt">5-grams (fivegrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/2gm.small.txt">2-grams (bigrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/3gm.small.txt">3-grams (trigrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/4gm.small.txt">4-grams (fourgrams)</a>
+	<li><a href="http://mirlab.org/jang/courses/dsa/project/2016/5gm.small.txt">5-grams (fivegrams)</a>
 	</ul>
 <li>Open test sets
 	<ul>
-	<li><a href="testCase/input0010.txt">input0010.txt</a>, <a href="testCase/output0010.txt">output0010.txt</a>
-	<li><a href="testCase/input0100.txt">input0100.txt</a>, <a href="testCase/output0100.txt">output0100.txt</a>
-	<li><a href="testCase/input1000.txt">input1000.txt</a>, <a href="testCase/output1000.txt">output1000.txt</a>
+	<li><a href="https://raw.githubusercontent.com/plsmaop/DSA/master/hw02/input1000.txt">input1000.txt</a>, <a href="https://raw.githubusercontent.com/plsmaop/DSA/master/hw02/output1000.txt">output1000.txt</a>
 	</ul>
-<li>Hidden test sets
-	<ul>
-	<li><a href="testCase/input1000-hidden.txt">input1000-hidden.txt</a>, <a href="testCase/output1000-hidden.txt">output1000-hidden.txt</a>
-	</ul>
-</ol>
 
-</ol>
 
-<hr>
 
-<script language="JavaScript">
-document.write("Last updated on " + document.lastModified + ".")
-</script>
 
-<a href="/jang/sandbox/asp/lib/editfile.asp?FileName=/jang/courses/dsa/homework/2017/hw02/index.asp"><img align=right border=0 src="/jang/graphics/invisible.gif"></a>
-</font>
 </body>
 </html>
