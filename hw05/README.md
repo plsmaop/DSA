@@ -19,14 +19,14 @@ function editfile() {
 	<title>DSA Homework 5</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=Big5">
 	<style>
-		td {font-family: "¼Ğ·¢Åé", "helvetica,arial", "Tahoma"}
+		td {font-family: "Â¼ÃÂ·Â¢Ã…Ã©", "helvetica,arial", "Tahoma"}
 		A:link {text-decoration: none}
 		A:hover {text-decoration: underline}
 	</style>
 </head>
 
 <body background="DSA%20Homework%205_files/yellow.gif">
-<!--font face="¼Ğ·¢Åé"-->
+<!--font face="Â¼ÃÂ·Â¢Ã…Ã©"-->
 
 <center>
 <h2><a href="https://mirlab.org/jang/courses/dsa">DSA</a> Homework 5</h2>
