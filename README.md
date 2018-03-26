@@ -1,7 +1,2 @@
-# Data Structure and Algorithm
-homework<br>
-I am beginner of programming.<br>
-These code are all trash lol, they are homeworks of the course, Data Structure and Algorithm.<br>
-
-
-I have shown how I finished my homeworks on <a href="https://medium.com/@allenivan"> my medium</a>.
+# Data Structure and Algorithm 2017 Spring
+Homework of the course CSIE1212 Data Structure and Algorithm 
